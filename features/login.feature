@@ -9,4 +9,4 @@ Scenario Outline: Login process
 
 Examples:
   |          email_input          |   password_input   |
-  |     bongadubula@gmail.com     |        bonga       |
+  |        bonga@gmail.com        |        bonga       |
