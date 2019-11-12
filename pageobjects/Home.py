@@ -20,12 +20,15 @@ from toolium.pageelements import *
 from toolium.pageobjects.page_object import PageObject
 
 
-class LoginPageObject(PageObject):
+class HomePageObject(PageObject):
     """Class represents mobile page elements for Login page."""
 
     email_address = None
     password = None
     sign_in_button = None
+    create_email = None
+    submit_button = None
+    create_button = None
 
     def init_page_elements(self):
         """Initialize mobile page elements using element locator."""
@@ -33,3 +36,6 @@ class LoginPageObject(PageObject):
         self.email_address = InputText(By.ID, 'email', wait=True)
         self.password = InputText(By.ID, 'passwd', wait=True)
         self.sign_in_button = Button(By.ID, 'SubmitLogin', wait=True)
+
+        self.create_email = Text(By.ID, 'email_create')
+        self.create_button = Button(By.ID, 'SubmitCreate')

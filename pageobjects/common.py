@@ -25,9 +25,9 @@ from toolium.pageobjects.page_object import PageObject
 from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.common.touch_action import TouchAction
 
+from pageobjects.Create_an_account import CreateAccountPageObject
 from pageobjects.custom_logger import CustomLogger
-from pageobjects.login import LoginPageObject
-
+from pageobjects.Home import HomePageObject
 import time
 
 
@@ -51,7 +51,8 @@ class CommonPageObject(PageObject):
         self.cl.auto_log_info("Attempting to load page {}".format(page_name))
 
         switcher = {
-            "LoginPageObject": LoginPageObject()
+            "HomePageObject": HomePageObject(),
+            "CreateAccountPageObject": CreateAccountPageObject()
         }
 
         self.mobile_page = switcher.get(page_name, None)
@@ -123,6 +124,7 @@ class CommonPageObject(PageObject):
             self.mobile_page_element = None
         pass
 # set elements inputs values!!
+
     def set_element_attribute_value(self, element_name=None, attribute=None, value=None):
         """This method set a attribute value to a page element."""
         try:
@@ -148,7 +150,9 @@ class CommonPageObject(PageObject):
         finally:
             self.mobile_page_element = None
         pass
+
 #selecting from list
+
     def select_list_value(self, element_name=None, value=None):
         """This method select a list value in list view."""
         self.cl.auto_log_info("Attempting to select list value '{}' in list '{}'".format(value, element_name))
