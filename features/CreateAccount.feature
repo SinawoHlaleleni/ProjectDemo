@@ -18,8 +18,8 @@ Feature: CreateAccount
 
     #And the user selects the value "<state>" from the "button_select" list
 
-    And the user sets the "text" value of element "address_firstname" to "<firstname_input>"
-    And the user sets the "text" value of element "address_lastname" to "<lastname_input>"
+    #And the user sets the "text" value of element "address_firstname" to "<firstname_input>"
+    #And the user sets the "text" value of element "address_lastname" to "<lastname_input>"
     And the user sets the "text" value of element "address_company" to "<company_input>"
     And the user sets the "text" value of element "address" to "<address_input>"
     And the user sets the "text" value of element "address_line2" to "<address_line2_input>"
@@ -38,4 +38,4 @@ Feature: CreateAccount
 
 Examples:
     | email_input                  |firstname_input| lastname_input | password_input | company_input | address_input    | address_line2_input | city_input | zip_input |country             | mobile_input |
-    | sinawo.hlaleleni@gmail.com   |Sinazo         | Hlalele        | sinawo#        | Kineticskunk  | groove building  | claremont           | Cape town  | 10001     | United state       |0732027291   |
+    | mpLwando@gmail.com           |Sinazo         | Hlalele        | sinawo#        | Kineticskunk  | groove building  | claremont           | Cape town  | 10001     | United state       |0732027291    |

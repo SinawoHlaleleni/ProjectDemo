@@ -17,6 +17,6 @@ Scenario Outline: Create process
 
 
   Examples:
-     |firstname_input| lastname_input | password_input |
-     |Sinazo         | Hlalele        | sinawo#        |
+   |email_input          |firstname_input| lastname_input | 
+   |mpLwando@gmail.com   |Sinazo         | Hlalele        |
 
