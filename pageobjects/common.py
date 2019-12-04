@@ -25,14 +25,14 @@ from toolium.pageobjects.page_object import PageObject
 from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.common.touch_action import TouchAction
 
-from pageobjects.Create_an_account import CreateAccountPageObject
 from pageobjects.custom_logger import CustomLogger
-from pageobjects.Home import HomePageObject
+from pageobjects.login import LoginPageObject
+from pageobjects.home_page import HomePageObject
+
 import time
 
 
 class CommonPageObject(PageObject):
-
     cl = CustomLogger()
 
     mobile_page = None
@@ -51,8 +51,9 @@ class CommonPageObject(PageObject):
         self.cl.auto_log_info("Attempting to load page {}".format(page_name))
 
         switcher = {
+            "LoginPageObject": LoginPageObject(),
             "HomePageObject": HomePageObject(),
-            "CreateAccountPageObject": CreateAccountPageObject()
+
         }
 
         self.mobile_page = switcher.get(page_name, None)
@@ -111,7 +112,7 @@ class CommonPageObject(PageObject):
         try:
             self.mobile_page_element = self.get_element(element_name)
             assert str(self.get_mobile_element_attribute_value(element_name, attribute)).lower() == \
-                str(value).lower()
+                   str(value).lower()
         except AssertionError as error:
             self.cl.auto_log_error("{}.{} <> {}'".format(element_name, attribute, value))
             self.cl.auto_log_error("Error message= ".format(error))
@@ -123,7 +124,6 @@ class CommonPageObject(PageObject):
         finally:
             self.mobile_page_element = None
         pass
-# set elements inputs values!!
 
     def set_element_attribute_value(self, element_name=None, attribute=None, value=None):
         """This method set a attribute value to a page element."""
@@ -150,8 +150,6 @@ class CommonPageObject(PageObject):
         finally:
             self.mobile_page_element = None
         pass
-
-#selecting from list
 
     def select_list_value(self, element_name=None, value=None):
         """This method select a list value in list view."""
@@ -258,6 +256,19 @@ class CommonPageObject(PageObject):
         self.cl.auto_log_info("Clicked on element '{}'".format(element_name))
         return self
 
+    def web_scroll(self):
+        self.driver.execute_script("window.scrollTo(0, 500)")
+        time.sleep(1)
+
+    def hover(self):
+        self.element = self.driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[3]/div[2]/ul/li[2]')
+        self.hover = ActionChains(self.driver).move_to_element(self.element).perform()
+        self.add_to_cart = self.driver.find_element(By.XPATH,
+                                                    '/html/body/div/div[2]/div/div[3]/div[2]/ul/li[2]/div/div['
+                                                    '2]/div[2]/a[2]/span').click()
+        self.driver.execute_script("window.scrollTo(0, 300)")
+        time.sleep(2)
+
     def drag_element(self, first_element=None, second_element=None):
         """This method drags a element to another element."""
         el1 = self.utils.get_web_element(self.get_element(first_element))
@@ -293,15 +304,3 @@ class CommonPageObject(PageObject):
         ma = MultiAction(self.driver)
         ma.add(action0, action1)
         ma.perform()
-
-
-
-
-
-
-
-
-
-
-
-
