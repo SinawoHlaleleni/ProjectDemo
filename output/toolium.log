@@ -682,28 +682,3 @@ DEBUG   2019-12-04 11:52:12,202 [connectionpool] http://127.0.0.1:61985 "POST /s
 DEBUG   2019-12-04 11:52:12,218 [connectionpool] http://127.0.0.1:61985 "POST /session/34c38f9a14b9d3ae3b9fc2b334dc2574/execute/sync HTTP/1.1" 200 14
 INFO    2019-12-04 11:52:14,220 [environment] The scenario 'Process of searching -- @1.1 ' has passed
 DEBUG   2019-12-04 11:52:14,377 [connectionpool] http://127.0.0.1:61985 "DELETE /session/34c38f9a14b9d3ae3b9fc2b334dc2574 HTTP/1.1" 200 14
-DEBUG   2019-12-04 15:57:48,943 [config_parser] Reading properties from file: C:\Users\Rowan Kirchner\ProjectDemo\conf\properties.cfg
-DEBUG   2019-12-04 15:57:48,944 [config_parser] Properties config file not found: C:\Users\Rowan Kirchner\ProjectDemo\conf\local-properties.cfg
-INFO    2019-12-04 15:57:49,000 [config_driver] Creating local driver (type = chrome)
-DEBUG   2019-12-04 15:57:49,000 [config_driver] Chrome driver path given in properties: C:\Drivers\chromedriver.exe
-DEBUG   2019-12-04 15:57:49,988 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:50462
-DEBUG   2019-12-04 15:57:55,416 [connectionpool] http://127.0.0.1:50462 "POST /session HTTP/1.1" 200 685
-DEBUG   2019-12-04 15:57:59,551 [connectionpool] http://127.0.0.1:50462 "POST /session/c24a9629af25f5d9b2f32e85e6a16efe/window/rect HTTP/1.1" 200 49
-DEBUG   2019-12-04 15:57:59,552 [driver_wrapper] Window bounds: 0 x 0
-DEBUG   2019-12-04 15:57:59,685 [connectionpool] http://127.0.0.1:50462 "POST /session/c24a9629af25f5d9b2f32e85e6a16efe/window/maximize HTTP/1.1" 200 51
-DEBUG   2019-12-04 15:57:59,697 [connectionpool] http://127.0.0.1:50462 "GET /session/c24a9629af25f5d9b2f32e85e6a16efe/window/rect HTTP/1.1" 200 51
-DEBUG   2019-12-04 15:57:59,698 [driver_wrapper] Window size: 1382 x 744
-DEBUG   2019-12-04 15:57:59,702 [connectionpool] http://127.0.0.1:50462 "POST /session/c24a9629af25f5d9b2f32e85e6a16efe/timeouts HTTP/1.1" 200 14
-INFO    2019-12-04 15:57:59,705 [environment] Running new scenario: Negative Login process -- @1.1 
-INFO    2019-12-04 15:57:59,711 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:49
-INFO    2019-12-04 15:57:59,711 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:49
-DEBUG   2019-12-04 15:58:03,722 [connectionpool] http://127.0.0.1:50462 "POST /session/c24a9629af25f5d9b2f32e85e6a16efe/url HTTP/1.1" 200 14
-DEBUG   2019-12-04 15:58:03,731 [connectionpool] http://127.0.0.1:50462 "POST /session/c24a9629af25f5d9b2f32e85e6a16efe/timeouts HTTP/1.1" 200 14
-DEBUG   2019-12-04 15:58:03,741 [connectionpool] http://127.0.0.1:50462 "POST /session/c24a9629af25f5d9b2f32e85e6a16efe/element HTTP/1.1" 404 996
-ERROR   2019-12-04 15:58:03,845 [environment] The scenario 'Negative Login process -- @1.1 ' has failed
-DEBUG   2019-12-04 15:58:03,861 [connectionpool] http://127.0.0.1:50462 "GET /session/c24a9629af25f5d9b2f32e85e6a16efe/screenshot HTTP/1.1" 404 996
-DEBUG   2019-12-04 15:58:03,885 [connectionpool] http://127.0.0.1:50462 "GET /session/c24a9629af25f5d9b2f32e85e6a16efe/log/types HTTP/1.1" 404 816
-DEBUG   2019-12-04 15:58:03,887 [utils] Reading logs from 'client, server' and writing them to log files
-DEBUG   2019-12-04 15:58:03,903 [connectionpool] http://127.0.0.1:50462 "POST /session/c24a9629af25f5d9b2f32e85e6a16efe/log HTTP/1.1" 400 895
-DEBUG   2019-12-04 15:58:03,964 [connectionpool] http://127.0.0.1:50462 "POST /session/c24a9629af25f5d9b2f32e85e6a16efe/log HTTP/1.1" 400 895
-DEBUG   2019-12-04 15:58:04,151 [connectionpool] http://127.0.0.1:50462 "DELETE /session/c24a9629af25f5d9b2f32e85e6a16efe HTTP/1.1" 200 14
