@@ -25,6 +25,7 @@ from toolium.pageobjects.page_object import PageObject
 from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.common.touch_action import TouchAction
 
+from pageobjects.Create_an_account import CreateAccountPageObject
 from pageobjects.custom_logger import CustomLogger
 from pageobjects.login import LoginPageObject
 from pageobjects.home_page import HomePageObject
@@ -53,6 +54,7 @@ class CommonPageObject(PageObject):
         switcher = {
             "LoginPageObject": LoginPageObject(),
             "HomePageObject": HomePageObject(),
+            "CreateAccountPageObject": CreateAccountPageObject()
 
         }
 
