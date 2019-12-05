@@ -13,7 +13,7 @@ Feature: Search
     And the user scrolls down
     And the user hovers over middle dress
 
-    #And the user clicks the "more_btn" where "class" has a value of "button lnk_view btn btn-default"
+    And the user clicks the "more_btn" where "class" has a value of "button lnk_view btn btn-default"
 
 
     Examples:
