@@ -6379,3 +6379,359 @@ DEBUG   2019-12-05 14:17:29,797 [connectionpool] http://127.0.0.1:51533 "POST /s
 DEBUG   2019-12-05 14:17:29,797 [custom_logger] search.ID = search_query_top: get_mobile_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:101
 INFO    2019-12-05 14:17:29,797 [environment] The scenario 'Positive Login process -- @1.1 ' has passed
 DEBUG   2019-12-05 14:17:30,047 [connectionpool] http://127.0.0.1:51533 "DELETE /session/10a10d23e649747130bb906d0e6c1934 HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:30,114 [config_parser] Reading properties from file: C:\Users\Rowan Kirchner\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 14:48:30,114 [config_parser] Properties config file not found: C:\Users\Rowan Kirchner\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 14:48:30,218 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 14:48:30,220 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 14:48:30,788 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:52467
+DEBUG   2019-12-05 14:48:36,614 [connectionpool] http://127.0.0.1:52467 "POST /session HTTP/1.1" 200 686
+DEBUG   2019-12-05 14:48:40,808 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/window/rect HTTP/1.1" 200 49
+DEBUG   2019-12-05 14:48:40,808 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 14:48:41,006 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/window/maximize HTTP/1.1" 200 51
+DEBUG   2019-12-05 14:48:41,015 [connectionpool] http://127.0.0.1:52467 "GET /session/673d0f4d01021c073cb1d3bdabfd2c9b/window/rect HTTP/1.1" 200 51
+DEBUG   2019-12-05 14:48:41,015 [driver_wrapper] Window size: 1382 x 744
+DEBUG   2019-12-05 14:48:41,015 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/timeouts HTTP/1.1" 200 14
+INFO    2019-12-05 14:48:41,031 [environment] Running new scenario: Negative Login process -- @1.1 
+INFO    2019-12-05 14:48:41,031 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:48:41,031 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+DEBUG   2019-12-05 14:48:47,485 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/url HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:47,491 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:47,575 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:48:47,703 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:47,709 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:47,717 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:47,811 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:48:47,968 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:47,974 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:47,980 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:48,071 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:48:48,124 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:48,124 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/timeouts HTTP/1.1" 200 14
+INFO    2019-12-05 14:48:48,124 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:48:48,124 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:48:48,140 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0AE748>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:48:48,140 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0BB448>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:48:48,140 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001DC8F0BB6C8>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 14:48:48,140 [custom_logger] Attempting to set 'email_address.text' to 'wrongemail': set_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 14:48:48,140 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:48:48,140 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0AE748>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:48:48,171 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:48:48,722 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/element/0168345c-6e38-44f9-8c8b-01bb98429503/value HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:48,727 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 14:48:48,728 [custom_logger] Found element password in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:48:48,729 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0BB448>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:48:48,787 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:48:49,149 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/element/c5f5d3ef-d057-4005-b44f-92e2a6c6e137/value HTTP/1.1" 200 14
+INFO    2019-12-05 14:48:49,154 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:48:49,154 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DC8F0BB6C8>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 14:48:49,155 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:48:49,156 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DC8F0BB6C8>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:48:49,199 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:48:49,234 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/execute/sync HTTP/1.1" 200 48
+DEBUG   2019-12-05 14:48:49,237 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 14:48:49,243 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:49,275 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:48:49,313 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:49,345 [connectionpool] http://127.0.0.1:52467 "GET /session/673d0f4d01021c073cb1d3bdabfd2c9b/element/41f90d62-e45b-42bd-af07-d0e23b306c5b/enabled HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:49,350 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:49,374 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:48:50,785 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/element/41f90d62-e45b-42bd-af07-d0e23b306c5b/click HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:50,787 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 14:48:50,798 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:48:50,799 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DC8F0BB6C8>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:48:50,869 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:48:50,898 [connectionpool] http://127.0.0.1:52467 "POST /session/673d0f4d01021c073cb1d3bdabfd2c9b/execute/sync HTTP/1.1" 200 23
+DEBUG   2019-12-05 14:48:50,899 [custom_logger] sign_in_button.ID = SubmitLogin: get_mobile_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:101
+INFO    2019-12-05 14:48:50,900 [environment] The scenario 'Negative Login process -- @1.1 ' has passed
+DEBUG   2019-12-05 14:48:51,184 [connectionpool] http://127.0.0.1:52467 "DELETE /session/673d0f4d01021c073cb1d3bdabfd2c9b HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:48:53,429 [config_parser] Reading properties from file: C:\Users\Rowan Kirchner\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 14:48:53,429 [config_parser] Properties config file not found: C:\Users\Rowan Kirchner\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 14:48:53,429 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 14:48:53,429 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 14:48:53,960 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:52514
+DEBUG   2019-12-05 14:48:59,744 [connectionpool] http://127.0.0.1:52514 "POST /session HTTP/1.1" 200 686
+DEBUG   2019-12-05 14:49:03,909 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/window/rect HTTP/1.1" 200 49
+DEBUG   2019-12-05 14:49:03,909 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 14:49:04,057 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/window/maximize HTTP/1.1" 200 51
+DEBUG   2019-12-05 14:49:04,073 [connectionpool] http://127.0.0.1:52514 "GET /session/7bf4895d80f8033108fddfbdd8899229/window/rect HTTP/1.1" 200 51
+DEBUG   2019-12-05 14:49:04,073 [driver_wrapper] Window size: 1382 x 744
+DEBUG   2019-12-05 14:49:04,073 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/timeouts HTTP/1.1" 200 14
+INFO    2019-12-05 14:49:04,073 [environment] Running new scenario: Negative Login process -- @1.2 
+INFO    2019-12-05 14:49:04,088 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:49:04,088 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+DEBUG   2019-12-05 14:49:10,055 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/url HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:10,068 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:10,122 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:10,192 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:10,197 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:10,201 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:10,242 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:10,309 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:10,316 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:10,321 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:10,364 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:10,407 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:10,412 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/timeouts HTTP/1.1" 200 14
+INFO    2019-12-05 14:49:10,414 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:49:10,415 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:49:10,415 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8C968CC8>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:49:10,416 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0D5B08>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:49:10,416 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001DC8F0D5308>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 14:49:10,419 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 14:49:10,420 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:10,420 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8C968CC8>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:10,439 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:11,161 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/element/1690c2ca-b997-4342-9f03-f4adab04a331/value HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:11,166 [custom_logger] Attempting to set 'password.text' to 'wrongpassword': set_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 14:49:11,167 [custom_logger] Found element password in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:11,167 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0D5B08>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:11,198 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:11,693 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/element/91c1b6cc-98b7-4a45-9483-3621c2aa469f/value HTTP/1.1" 200 14
+INFO    2019-12-05 14:49:11,701 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:11,703 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DC8F0D5308>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 14:49:11,703 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:11,704 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DC8F0D5308>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:11,735 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:11,762 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/execute/sync HTTP/1.1" 200 48
+DEBUG   2019-12-05 14:49:11,762 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 14:49:11,762 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:11,794 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:11,841 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:11,887 [connectionpool] http://127.0.0.1:52514 "GET /session/7bf4895d80f8033108fddfbdd8899229/element/f0a4137d-a95d-43a8-956d-30c2cbd91a02/enabled HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:11,887 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:11,919 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:14,164 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/element/f0a4137d-a95d-43a8-956d-30c2cbd91a02/click HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:14,166 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 14:49:14,173 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:14,174 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DC8F0D5308>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:14,246 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:14,307 [connectionpool] http://127.0.0.1:52514 "POST /session/7bf4895d80f8033108fddfbdd8899229/execute/sync HTTP/1.1" 200 23
+DEBUG   2019-12-05 14:49:14,309 [custom_logger] sign_in_button.ID = SubmitLogin: get_mobile_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:101
+INFO    2019-12-05 14:49:14,310 [environment] The scenario 'Negative Login process -- @1.2 ' has passed
+DEBUG   2019-12-05 14:49:14,638 [connectionpool] http://127.0.0.1:52514 "DELETE /session/7bf4895d80f8033108fddfbdd8899229 HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:20,644 [config_parser] Reading properties from file: C:\Users\Rowan Kirchner\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 14:49:20,644 [config_parser] Properties config file not found: C:\Users\Rowan Kirchner\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 14:49:20,644 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 14:49:20,644 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 14:49:21,175 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:52559
+DEBUG   2019-12-05 14:49:26,994 [connectionpool] http://127.0.0.1:52559 "POST /session HTTP/1.1" 200 687
+DEBUG   2019-12-05 14:49:31,217 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/window/rect HTTP/1.1" 200 49
+DEBUG   2019-12-05 14:49:31,217 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 14:49:31,365 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/window/maximize HTTP/1.1" 200 51
+DEBUG   2019-12-05 14:49:31,365 [connectionpool] http://127.0.0.1:52559 "GET /session/343608bfd1bea0b91aaad68d1c862b0d/window/rect HTTP/1.1" 200 51
+DEBUG   2019-12-05 14:49:31,380 [driver_wrapper] Window size: 1382 x 744
+DEBUG   2019-12-05 14:49:31,380 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/timeouts HTTP/1.1" 200 14
+INFO    2019-12-05 14:49:31,380 [environment] Running new scenario: Negative Login process -- @1.3 
+INFO    2019-12-05 14:49:31,396 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:49:31,396 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+DEBUG   2019-12-05 14:49:38,119 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/url HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:38,128 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:38,245 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:38,317 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:38,322 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:38,328 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:38,427 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:38,481 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:38,481 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:38,497 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:38,544 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:38,575 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:38,591 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/timeouts HTTP/1.1" 200 14
+INFO    2019-12-05 14:49:38,591 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:49:38,591 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:49:38,591 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0AE6C8>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:49:38,591 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0AE508>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:49:38,591 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001DC8F0AEE48>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 14:49:38,591 [custom_logger] Attempting to set 'email_address.text' to 'wrongemail': set_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 14:49:38,591 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:38,591 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0AE6C8>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:38,625 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:39,045 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/element/3582462d-f5d1-4e5b-b891-ad0fdb29155b/value HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:39,050 [custom_logger] Attempting to set 'password.text' to 'wrongpassword': set_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 14:49:39,050 [custom_logger] Found element password in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:39,051 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0AE508>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:39,078 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:39,511 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/element/815d4b7e-c0d0-41d4-b6c3-38a06c95cedb/value HTTP/1.1" 200 14
+INFO    2019-12-05 14:49:39,518 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:39,518 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DC8F0AEE48>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 14:49:39,519 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:39,520 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DC8F0AEE48>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:39,586 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:39,634 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/execute/sync HTTP/1.1" 200 48
+DEBUG   2019-12-05 14:49:39,636 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 14:49:39,641 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:39,674 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:39,715 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:39,737 [connectionpool] http://127.0.0.1:52559 "GET /session/343608bfd1bea0b91aaad68d1c862b0d/element/51aaf103-00e3-4362-b4ff-a41dd97632e0/enabled HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:39,752 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:39,768 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:41,727 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/element/51aaf103-00e3-4362-b4ff-a41dd97632e0/click HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:41,729 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 14:49:41,733 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:41,734 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DC8F0AEE48>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:49:41,786 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:49:41,816 [connectionpool] http://127.0.0.1:52559 "POST /session/343608bfd1bea0b91aaad68d1c862b0d/execute/sync HTTP/1.1" 200 23
+DEBUG   2019-12-05 14:49:41,818 [custom_logger] sign_in_button.ID = SubmitLogin: get_mobile_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:101
+INFO    2019-12-05 14:49:41,819 [environment] The scenario 'Negative Login process -- @1.3 ' has passed
+DEBUG   2019-12-05 14:49:42,135 [connectionpool] http://127.0.0.1:52559 "DELETE /session/343608bfd1bea0b91aaad68d1c862b0d HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:49:46,771 [config_parser] Reading properties from file: C:\Users\Rowan Kirchner\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 14:49:46,771 [config_parser] Properties config file not found: C:\Users\Rowan Kirchner\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 14:49:46,786 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 14:49:46,786 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 14:49:47,318 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:52605
+DEBUG   2019-12-05 14:49:53,529 [connectionpool] http://127.0.0.1:52605 "POST /session HTTP/1.1" 200 686
+DEBUG   2019-12-05 14:49:57,726 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/window/rect HTTP/1.1" 200 49
+DEBUG   2019-12-05 14:49:57,726 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 14:49:57,895 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/window/maximize HTTP/1.1" 200 51
+DEBUG   2019-12-05 14:49:57,910 [connectionpool] http://127.0.0.1:52605 "GET /session/680d2a7ea47739cde8c9973dae3d71d9/window/rect HTTP/1.1" 200 51
+DEBUG   2019-12-05 14:49:57,910 [driver_wrapper] Window size: 1382 x 744
+DEBUG   2019-12-05 14:49:57,926 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/timeouts HTTP/1.1" 200 14
+INFO    2019-12-05 14:49:57,926 [environment] Running new scenario: Positive Login process -- @1.1 
+INFO    2019-12-05 14:49:57,942 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:49:57,942 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+DEBUG   2019-12-05 14:50:04,534 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/url HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:04,544 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:04,608 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:50:04,701 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:04,707 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:04,712 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:04,794 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:50:04,882 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:04,893 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:04,899 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:04,963 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:50:05,012 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:05,017 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/timeouts HTTP/1.1" 200 14
+INFO    2019-12-05 14:50:05,018 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:50:05,019 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:50:05,020 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0E4048>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:50:05,021 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0E4488>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:50:05,021 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001DC8F075F48>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 14:50:05,028 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 14:50:05,029 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:50:05,030 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0E4048>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:50:05,133 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:50:05,845 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/element/e8a8a125-be31-4649-94d3-d36f714a3c77/value HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:05,849 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 14:50:05,850 [custom_logger] Found element password in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:50:05,850 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F0E4488>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:50:05,882 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:50:06,281 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/element/6fb46527-c532-45ca-808f-7fe63943e936/value HTTP/1.1" 200 14
+INFO    2019-12-05 14:50:06,285 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:50:06,286 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DC8F075F48>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 14:50:06,286 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:50:06,287 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DC8F075F48>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:50:06,332 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:50:06,371 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/execute/sync HTTP/1.1" 200 48
+DEBUG   2019-12-05 14:50:06,371 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 14:50:06,371 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:06,402 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:50:06,434 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:06,465 [connectionpool] http://127.0.0.1:52605 "GET /session/680d2a7ea47739cde8c9973dae3d71d9/element/e16e77a7-7eca-4404-bbc7-5f0c6231dbdc/enabled HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:06,480 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:06,496 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:50:10,903 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/element/e16e77a7-7eca-4404-bbc7-5f0c6231dbdc/click HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:50:10,905 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 14:50:10,912 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:50:10,915 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+DEBUG   2019-12-05 14:50:14,321 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/url HTTP/1.1" 200 14
+INFO    2019-12-05 14:50:14,323 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:50:14,325 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:50:14,326 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F111488>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:50:14,328 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DC8F111CC8>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:50:14,328 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001DC8F111A88>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:50:14,329 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x000001DC8F110CC8>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:50:14,330 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001DC8F110708>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+ERROR   2019-12-05 14:50:14,350 [environment] The scenario 'Positive Login process -- @1.1 ' has failed
+DEBUG   2019-12-05 14:50:14,986 [connectionpool] http://127.0.0.1:52605 "GET /session/680d2a7ea47739cde8c9973dae3d71d9/screenshot HTTP/1.1" 200 130096
+INFO    2019-12-05 14:50:14,986 [utils] Screenshot saved in C:\Users\Rowan Kirchner\ProjectDemo\output\screenshots\2019-12-05_144830_chrome\01_Positive_Login_process_1_1.png
+DEBUG   2019-12-05 14:50:15,002 [connectionpool] http://127.0.0.1:52605 "GET /session/680d2a7ea47739cde8c9973dae3d71d9/log/types HTTP/1.1" 404 816
+DEBUG   2019-12-05 14:50:15,002 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 14:50:15,002 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/log HTTP/1.1" 400 895
+DEBUG   2019-12-05 14:50:15,017 [connectionpool] http://127.0.0.1:52605 "POST /session/680d2a7ea47739cde8c9973dae3d71d9/log HTTP/1.1" 400 895
+DEBUG   2019-12-05 14:50:15,314 [connectionpool] http://127.0.0.1:52605 "DELETE /session/680d2a7ea47739cde8c9973dae3d71d9 HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:36,244 [config_parser] Reading properties from file: C:\Users\Rowan Kirchner\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 14:51:36,260 [config_parser] Properties config file not found: C:\Users\Rowan Kirchner\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 14:51:36,338 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 14:51:36,338 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 14:51:36,916 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:52700
+DEBUG   2019-12-05 14:51:42,989 [connectionpool] http://127.0.0.1:52700 "POST /session HTTP/1.1" 200 687
+DEBUG   2019-12-05 14:51:47,165 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/window/rect HTTP/1.1" 200 49
+DEBUG   2019-12-05 14:51:47,165 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 14:51:47,331 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/window/maximize HTTP/1.1" 200 51
+DEBUG   2019-12-05 14:51:47,346 [connectionpool] http://127.0.0.1:52700 "GET /session/f8039a4b2ec027edb500ef9fa03a8b54/window/rect HTTP/1.1" 200 51
+DEBUG   2019-12-05 14:51:47,348 [driver_wrapper] Window size: 1382 x 744
+DEBUG   2019-12-05 14:51:47,353 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+INFO    2019-12-05 14:51:47,358 [environment] Running new scenario: Positive Login process -- @1.1 
+INFO    2019-12-05 14:51:47,368 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:51:47,369 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+DEBUG   2019-12-05 14:51:55,775 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/url HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:55,781 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:55,848 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:51:55,955 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:55,961 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:55,967 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:56,029 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:51:56,095 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:56,100 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:56,105 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:56,161 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:51:56,205 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:56,211 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+INFO    2019-12-05 14:51:56,212 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:51:56,215 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:51:56,215 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001C72EEEC8C8>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:51:56,216 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001C72EEECBC8>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:51:56,217 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001C72EEECB88>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 14:51:56,221 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 14:51:56,221 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:51:56,222 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001C72EEEC8C8>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:51:56,253 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:51:56,970 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element/0a44cb70-1cc0-4c34-974f-dd2fe0b68e2e/value HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:56,975 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 14:51:56,976 [custom_logger] Found element password in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:51:56,977 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001C72EEECBC8>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:51:57,005 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:51:57,389 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element/df66fcdf-596f-4cca-953c-6d9caa1f30fa/value HTTP/1.1" 200 14
+INFO    2019-12-05 14:51:57,393 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:51:57,394 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001C72EEECB88>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 14:51:57,394 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:51:57,394 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001C72EEECB88>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:51:57,430 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:51:57,469 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/execute/sync HTTP/1.1" 200 48
+DEBUG   2019-12-05 14:51:57,470 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 14:51:57,474 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:57,497 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:51:57,528 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:57,559 [connectionpool] http://127.0.0.1:52700 "GET /session/f8039a4b2ec027edb500ef9fa03a8b54/element/3305fecd-2ee1-4aa8-9eb9-af437db9ab56/enabled HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:57,559 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:51:57,591 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:52:03,140 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element/3305fecd-2ee1-4aa8-9eb9-af437db9ab56/click HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:52:03,142 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 14:52:03,146 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:52:03,147 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+DEBUG   2019-12-05 14:52:07,101 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/url HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:52:07,107 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:52:07,156 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:52:07,195 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:52:07,198 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:52:07,202 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:52:07,241 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:52:07,279 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/execute/sync HTTP/1.1" 200 14
+DEBUG   2019-12-05 14:52:07,283 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/timeouts HTTP/1.1" 200 14
+INFO    2019-12-05 14:52:07,285 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 14:52:07,286 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:52:07,287 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001C72EF03A08>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:52:07,287 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x000001C72EF14148>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:52:07,288 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001C72EF14088>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:52:07,288 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001C72EF14CC8>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:52:07,289 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001C72EF14108>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:52:07,289 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x000001C72EF140C8>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:52:07,289 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001C72EF14BC8>: init_web_page_elements in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 14:52:07,292 [custom_logger] Found element search in 'dict': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:52:07,293 [custom_logger] Element search = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001C72EF03A08>': get_element in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 14:52:07,321 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/element HTTP/1.1" 200 88
+DEBUG   2019-12-05 14:52:07,349 [connectionpool] http://127.0.0.1:52700 "POST /session/f8039a4b2ec027edb500ef9fa03a8b54/execute/sync HTTP/1.1" 200 28
+DEBUG   2019-12-05 14:52:07,351 [custom_logger] search.ID = search_query_top: get_mobile_element_attribute_value in C:\Users\Rowan Kirchner\ProjectDemo\pageobjects\common.py:101
+INFO    2019-12-05 14:52:07,352 [environment] The scenario 'Positive Login process -- @1.1 ' has passed
+DEBUG   2019-12-05 14:52:07,727 [connectionpool] http://127.0.0.1:52700 "DELETE /session/f8039a4b2ec027edb500ef9fa03a8b54 HTTP/1.1" 200 14
