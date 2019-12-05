@@ -1023,3 +1023,994 @@ DEBUG   2019-12-04 16:24:10,169 [connectionpool] http://127.0.0.1:51837 "POST /s
 DEBUG   2019-12-04 16:24:10,184 [connectionpool] http://127.0.0.1:51837 "POST /session/56fd9864dedbd722ef43f5980d9be6e6/execute/sync HTTP/1.1" 200 14
 INFO    2019-12-04 16:24:12,187 [environment] The scenario 'Process of searching -- @1.1 ' has passed
 DEBUG   2019-12-04 16:24:12,362 [connectionpool] http://127.0.0.1:51837 "DELETE /session/56fd9864dedbd722ef43f5980d9be6e6 HTTP/1.1" 200 14
+DEBUG   2019-12-05 09:11:34,559 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:11:34,559 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:11:34,573 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:11:34,573 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:11:37,946 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:11:38,069 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:11:38,073 [environment] Running new scenario: Create process -- @1.1 
+INFO    2019-12-05 09:11:38,077 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:11:38,078 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:11:42,963 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:11:42,963 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:11:42,964 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x00000259D1E7B3C8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:11:42,964 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x00000259D1E7B400>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:11:42,965 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+ERROR   2019-12-05 09:11:42,978 [environment] The scenario 'Create process -- @1.1 ' has failed
+INFO    2019-12-05 09:11:43,328 [utils] Screenshot saved in C:\Users\KINETICSKUNK-DC\ProjectDemo\output\screenshots\2019-12-05_091134_chrome\01_Create_process_1_1.png
+DEBUG   2019-12-05 09:11:43,330 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:11:45,578 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:11:45,579 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:11:45,581 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:11:45,581 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:11:48,929 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:11:49,078 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:11:49,084 [environment] Running new scenario: Create account process -- @1.1 
+INFO    2019-12-05 09:11:49,089 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:11:49,090 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:11:53,379 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:11:53,380 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:11:53,380 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x00000259D1F447F0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:11:53,380 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x00000259D1F44668>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:11:53,381 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+ERROR   2019-12-05 09:11:53,385 [environment] The scenario 'Create account process -- @1.1 ' has failed
+INFO    2019-12-05 09:11:53,714 [utils] Screenshot saved in C:\Users\KINETICSKUNK-DC\ProjectDemo\output\screenshots\2019-12-05_091134_chrome\02_Create_account_process_1_1.png
+DEBUG   2019-12-05 09:11:53,715 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:11:55,935 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:11:55,935 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:11:55,936 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:11:55,937 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:11:59,282 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:11:59,398 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:11:59,400 [environment] Running new scenario: Negative Login process -- @1.1 
+INFO    2019-12-05 09:11:59,407 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:11:59,407 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:12:06,891 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:12:06,891 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:12:06,891 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x00000259D1F58240>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:12:06,891 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x00000259D1F58320>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:12:06,891 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x00000259D1F580F0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:12:06,892 [custom_logger] Attempting to set 'email_address.text' to 'wrongemail': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:12:06,893 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:06,893 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x00000259D1F58240>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:07,008 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:12:07,008 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:07,008 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x00000259D1F58320>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:12:07,111 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:07,111 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x00000259D1F580F0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:12:07,111 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:07,111 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x00000259D1F580F0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:07,125 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:12:08,482 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:12:08,482 [environment] The scenario 'Negative Login process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:12:10,651 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:12:10,652 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:12:10,655 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:12:10,656 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:12:13,988 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:12:14,103 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:12:14,105 [environment] Running new scenario: Negative Login process -- @1.2 
+INFO    2019-12-05 09:12:14,107 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:12:14,107 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:12:18,815 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:12:18,816 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:12:18,816 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x00000259D1F58588>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:12:18,816 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x00000259D2141940>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:12:18,816 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x00000259D1F585C0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:12:18,817 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:12:18,817 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:18,818 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x00000259D1F58588>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:19,047 [custom_logger] Attempting to set 'password.text' to 'wrongpassword': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:12:19,048 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:19,048 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x00000259D2141940>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:12:19,190 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:19,190 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x00000259D1F585C0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:12:19,190 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:19,191 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x00000259D1F585C0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:19,208 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:12:20,542 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:12:20,543 [environment] The scenario 'Negative Login process -- @1.2 ' has passed
+DEBUG   2019-12-05 09:12:22,734 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:12:22,735 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:12:22,736 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:12:22,736 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:12:35,044 [driver_wrapper] Window bounds: 0 x 0
+ERROR   2019-12-05 09:12:41,060 [environment] The scenario 'Negative Login process -- @1.3 ' has failed
+DEBUG   2019-12-05 09:12:47,078 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:12:49,127 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:12:49,128 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:12:49,130 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:12:49,131 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:12:52,653 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:12:52,768 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:12:52,770 [environment] Running new scenario: Positive Login process -- @1.1 
+INFO    2019-12-05 09:12:52,774 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:12:52,775 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:12:57,822 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:12:57,822 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:12:57,822 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x00000259D1F4FF28>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:12:57,822 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x00000259D1F587B8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:12:57,823 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x00000259D1F58940>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:12:57,824 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:12:57,824 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:57,824 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x00000259D1F4FF28>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:58,032 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:12:58,032 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:58,032 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x00000259D1F587B8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:12:58,127 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:58,127 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x00000259D1F58940>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:12:58,128 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:58,128 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x00000259D1F58940>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:12:58,142 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:13:00,241 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:13:00,241 [environment] The scenario 'Positive Login process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:13:02,424 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:13:02,424 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:13:02,428 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:13:02,429 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:13:14,736 [driver_wrapper] Window bounds: 0 x 0
+ERROR   2019-12-05 09:13:20,751 [environment] The scenario 'Process of searching -- @1.1 ' has failed
+DEBUG   2019-12-05 09:13:31,207 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:13:31,207 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:13:31,212 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:13:31,212 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:13:34,572 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:13:34,686 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:13:34,688 [environment] Running new scenario: Create process -- @1.1 
+INFO    2019-12-05 09:13:34,690 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:13:34,690 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:13:39,795 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:13:39,795 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:13:39,795 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029F29C07978>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:13:39,796 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x0000029F29C079B0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:13:39,797 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+ERROR   2019-12-05 09:13:39,799 [environment] The scenario 'Create process -- @1.1 ' has failed
+INFO    2019-12-05 09:13:40,160 [utils] Screenshot saved in C:\Users\KINETICSKUNK-DC\ProjectDemo\output\screenshots\2019-12-05_091331_chrome\01_Create_process_1_1.png
+DEBUG   2019-12-05 09:13:40,161 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:13:42,343 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:13:42,343 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:13:42,347 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:13:42,348 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:13:45,774 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:13:45,888 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:13:45,890 [environment] Running new scenario: Create account process -- @1.1 
+INFO    2019-12-05 09:13:45,892 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:13:45,892 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:13:50,755 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:13:50,756 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:13:50,756 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029F29C595C0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:13:50,756 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x0000029F29C598D0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:13:50,757 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+ERROR   2019-12-05 09:13:50,760 [environment] The scenario 'Create account process -- @1.1 ' has failed
+INFO    2019-12-05 09:13:51,125 [utils] Screenshot saved in C:\Users\KINETICSKUNK-DC\ProjectDemo\output\screenshots\2019-12-05_091331_chrome\02_Create_account_process_1_1.png
+DEBUG   2019-12-05 09:13:51,126 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:13:53,315 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:13:53,316 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:13:53,319 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:13:53,320 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:13:56,712 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:13:56,833 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:13:56,837 [environment] Running new scenario: Negative Login process -- @1.1 
+INFO    2019-12-05 09:13:56,841 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:13:56,842 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:14:01,682 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:14:01,683 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:14:01,683 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029F29B90860>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:14:01,683 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029F29B90978>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:14:01,683 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000029F29B90BE0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:14:01,684 [custom_logger] Attempting to set 'email_address.text' to 'wrongemail': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:14:01,684 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:14:01,684 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000029F29B90860>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:14:01,813 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:14:01,813 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:14:01,813 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000029F29B90978>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:14:01,984 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:14:01,984 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029F29B90BE0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:14:01,984 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:14:01,985 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029F29B90BE0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:14:02,002 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:14:03,570 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:14:03,571 [environment] The scenario 'Negative Login process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:14:06,059 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:14:06,059 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:14:06,060 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:14:06,061 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+ERROR   2019-12-05 09:14:09,981 [environment] The scenario 'Negative Login process -- @1.2 ' has failed
+DEBUG   2019-12-05 09:16:24,224 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:16:24,225 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:16:24,229 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:16:24,229 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:16:27,553 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:16:27,683 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:16:27,687 [environment] Running new scenario: Create process -- @1.1 
+INFO    2019-12-05 09:16:27,692 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:16:27,693 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:16:32,359 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:16:32,360 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:16:32,360 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000002895D797940>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:16:32,360 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x000002895D797978>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:16:32,361 [custom_logger] Attempting to set 'create_email.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+ERROR   2019-12-05 09:16:32,365 [environment] The scenario 'Create process -- @1.1 ' has failed
+INFO    2019-12-05 09:16:32,737 [utils] Screenshot saved in C:\Users\KINETICSKUNK-DC\ProjectDemo\output\screenshots\2019-12-05_091624_chrome\01_Create_process_1_1.png
+DEBUG   2019-12-05 09:16:32,738 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:16:35,451 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:16:35,452 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:16:35,455 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:16:35,455 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:16:38,835 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:16:38,957 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:16:38,961 [environment] Running new scenario: Create account process -- @1.1 
+INFO    2019-12-05 09:16:38,967 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:16:38,968 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+ERROR   2019-12-05 09:16:42,561 [environment] The scenario 'Create account process -- @1.1 ' has failed
+DEBUG   2019-12-05 09:16:42,564 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:16:44,647 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:16:44,647 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:16:44,650 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:16:44,650 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:16:56,913 [driver_wrapper] Window bounds: 0 x 0
+ERROR   2019-12-05 09:17:02,931 [environment] The scenario 'Negative Login process -- @1.1 ' has failed
+DEBUG   2019-12-05 09:17:08,945 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:17:11,032 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:17:11,033 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:17:11,036 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:17:11,036 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:17:23,268 [driver_wrapper] Window bounds: 0 x 0
+ERROR   2019-12-05 09:17:29,290 [environment] The scenario 'Negative Login process -- @1.2 ' has failed
+DEBUG   2019-12-05 09:17:35,306 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:17:37,379 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:17:37,380 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:17:37,382 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:17:37,383 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:17:49,613 [driver_wrapper] Window bounds: 0 x 0
+ERROR   2019-12-05 09:17:55,633 [environment] The scenario 'Negative Login process -- @1.3 ' has failed
+DEBUG   2019-12-05 09:18:01,648 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:18:03,692 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:18:03,693 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:18:03,696 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:18:03,697 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:18:15,927 [driver_wrapper] Window bounds: 0 x 0
+ERROR   2019-12-05 09:18:21,948 [environment] The scenario 'Positive Login process -- @1.1 ' has failed
+DEBUG   2019-12-05 09:18:27,974 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:18:30,058 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:18:30,059 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:18:30,061 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:18:30,062 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:18:42,314 [driver_wrapper] Window bounds: 0 x 0
+ERROR   2019-12-05 09:18:48,340 [environment] The scenario 'Process of searching -- @1.1 ' has failed
+DEBUG   2019-12-05 09:18:54,364 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:19:41,151 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:19:41,152 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:19:41,166 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:19:41,166 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:19:44,541 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:19:44,675 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:19:44,679 [environment] Running new scenario: Create process -- @1.1 
+INFO    2019-12-05 09:19:44,687 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:19:44,689 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:19:49,198 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:19:49,200 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:19:49,200 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001D95392B9E8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:19:49,200 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x000001D95392BA20>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:19:49,202 [custom_logger] Attempting to set 'create_email.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+ERROR   2019-12-05 09:19:49,224 [environment] The scenario 'Create process -- @1.1 ' has failed
+INFO    2019-12-05 09:19:49,553 [utils] Screenshot saved in C:\Users\KINETICSKUNK-DC\ProjectDemo\output\screenshots\2019-12-05_091941_chrome\01_Create_process_1_1.png
+DEBUG   2019-12-05 09:19:49,554 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:19:58,492 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:19:58,492 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:19:58,501 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:19:58,501 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:20:01,880 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:20:02,014 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:20:02,018 [environment] Running new scenario: Create account process -- @1.1 
+INFO    2019-12-05 09:20:02,023 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:20:02,024 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:20:06,559 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:20:06,560 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:20:06,560 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000014EC9200320>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:20:06,560 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x0000014EC9200630>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:20:06,561 [custom_logger] Attempting to set 'create_email.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+ERROR   2019-12-05 09:20:06,565 [environment] The scenario 'Create account process -- @1.1 ' has failed
+INFO    2019-12-05 09:20:06,910 [utils] Screenshot saved in C:\Users\KINETICSKUNK-DC\ProjectDemo\output\screenshots\2019-12-05_091958_chrome\01_Create_account_process_1_1.png
+DEBUG   2019-12-05 09:20:06,912 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:45:16,041 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:45:16,042 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:45:16,051 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:45:16,052 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:45:19,450 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:45:19,582 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:45:19,585 [environment] Running new scenario: Create account process -- @1.1 
+INFO    2019-12-05 09:45:19,591 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:45:19,592 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:45:24,442 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:45:24,443 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:45:24,443 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000024CE7493668>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:45:24,443 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x0000024CE7493710>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:45:24,443 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000024CE7493550>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:45:24,443 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000024CE7493898>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:45:24,444 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000024CE74938D0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:45:24,444 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x0000024CE7493908>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:45:24,444 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000024CE7493940>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:45:24,445 [custom_logger] Attempting to set 'create_email.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:45:24,445 [custom_logger] Found element create_email in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:45:24,445 [custom_logger] Element create_email = '<toolium.pageelements.text_page_element.Text object at 0x0000024CE7493908>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:45:24,650 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:45:24,650 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x0000024CE7493940>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:45:24,650 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:45:24,651 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x0000024CE7493940>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:45:24,670 [custom_logger] create_button.class = btn btn-default button button-medium exclusive: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:45:24,795 [custom_logger] Clicked on element 'create_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:45:24,796 [custom_logger] Attempting to load page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:45:24,796 [custom_logger] Mobile page CreateAccountPageObject = 'CreateAccountPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+ERROR   2019-12-05 09:45:35,115 [page_element] Page element of type 'Button' with locator ('id', 'uniform-id_state') not found or is not visible after 10 seconds
+ERROR   2019-12-05 09:45:35,138 [environment] The scenario 'Create account process -- @1.1 ' has failed
+INFO    2019-12-05 09:45:35,539 [utils] Screenshot saved in C:\Users\KINETICSKUNK-DC\ProjectDemo\output\screenshots\2019-12-05_094516_chrome\01_Create_account_process_1_1.png
+DEBUG   2019-12-05 09:45:35,540 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:47:16,293 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:47:16,293 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:47:16,302 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:47:16,302 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:47:19,638 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:47:19,753 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:47:19,754 [environment] Running new scenario: Create account process -- @1.1 
+INFO    2019-12-05 09:47:19,757 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:47:19,757 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:47:24,312 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:47:24,313 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:24,313 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DED7698470>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:24,313 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x000001DED7698780>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:24,313 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DED76987B8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:24,314 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001DED76987F0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:24,314 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001DED7698828>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:24,314 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED7698860>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:24,314 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001DED7698898>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:47:24,315 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:47:24,315 [custom_logger] Found element create_email in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:24,315 [custom_logger] Element create_email = '<toolium.pageelements.text_page_element.Text object at 0x000001DED7698860>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:47:24,486 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:24,487 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DED7698898>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:47:24,487 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:24,487 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DED7698898>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:24,516 [custom_logger] create_button.class = btn btn-default button button-medium exclusive: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:47:24,642 [custom_logger] Clicked on element 'create_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:47:24,644 [custom_logger] Attempting to load page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:47:24,645 [custom_logger] Mobile page CreateAccountPageObject = 'CreateAccountPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:47:27,325 [custom_logger] Loaded page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:47:27,325 [custom_logger] The mobile_page object = CreateAccountPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,326 [custom_logger] Element name = mrs_radio_btn, value = <toolium.pageelements.button_page_element.Button object at 0x000001DED7698908>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,326 [custom_logger] Element name = firstname, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED7698C18>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,326 [custom_logger] Element name = lastname, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED7698550>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,326 [custom_logger] Element name = email, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED7698630>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,326 [custom_logger] Element name = password, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED7698518>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,326 [custom_logger] Element name = address_firstname, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED7698278>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,327 [custom_logger] Element name = address_lastname, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED76986D8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,327 [custom_logger] Element name = address_company, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED7698DD8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,327 [custom_logger] Element name = address, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED7698FD0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,327 [custom_logger] Element name = address_line2, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED7698E80>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,327 [custom_logger] Element name = address_city, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED7698CF8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,327 [custom_logger] Element name = button_select, value = <toolium.pageelements.button_page_element.Button object at 0x000001DED7698668>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,327 [custom_logger] Element name = address_state, value = <toolium.pageelements.button_page_element.Button object at 0x000001DED7698EF0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,328 [custom_logger] Element name = address_zip, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED7698E10>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,328 [custom_logger] Element name = address_country, value = <toolium.pageelements.button_page_element.Button object at 0x000001DED7698DA0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,328 [custom_logger] Element name = address_mobile_number, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED7698E48>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,328 [custom_logger] Element name = address_used, value = <toolium.pageelements.text_page_element.Text object at 0x000001DED76B4048>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,328 [custom_logger] Element name = register_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001DED76B4080>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:27,330 [custom_logger] Found element mrs_radio_btn in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:27,330 [custom_logger] Element mrs_radio_btn = '<toolium.pageelements.button_page_element.Button object at 0x000001DED7698908>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:47:27,330 [custom_logger] Found element mrs_radio_btn in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:27,330 [custom_logger] Element mrs_radio_btn = '<toolium.pageelements.button_page_element.Button object at 0x000001DED7698908>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:27,356 [custom_logger] mrs_radio_btn.class = radio: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:47:27,467 [custom_logger] Clicked on element 'mrs_radio_btn': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2019-12-05 09:47:27,468 [custom_logger] Attempting to set 'firstname.text' to 'Sinazo': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:47:27,468 [custom_logger] Found element firstname in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:27,468 [custom_logger] Element firstname = '<toolium.pageelements.text_page_element.Text object at 0x000001DED7698C18>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:27,577 [custom_logger] Attempting to set 'lastname.text' to 'Hlalele': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:47:27,577 [custom_logger] Found element lastname in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:27,577 [custom_logger] Element lastname = '<toolium.pageelements.text_page_element.Text object at 0x000001DED7698550>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:27,690 [custom_logger] Attempting to set 'password.text' to 'sinawo#': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:47:27,691 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:27,691 [custom_logger] Element password = '<toolium.pageelements.text_page_element.Text object at 0x000001DED7698518>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:27,802 [custom_logger] Attempting to set 'address_company.text' to 'Kineticskunk': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:47:27,802 [custom_logger] Found element address_company in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:27,803 [custom_logger] Element address_company = '<toolium.pageelements.text_page_element.Text object at 0x000001DED7698DD8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:27,959 [custom_logger] Attempting to set 'address.text' to 'groove building': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:47:27,960 [custom_logger] Found element address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:27,960 [custom_logger] Element address = '<toolium.pageelements.text_page_element.Text object at 0x000001DED7698FD0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,121 [custom_logger] Attempting to set 'address_line2.text' to 'claremont': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:47:28,121 [custom_logger] Found element address_line2 in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,122 [custom_logger] Element address_line2 = '<toolium.pageelements.text_page_element.Text object at 0x000001DED7698E80>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,235 [custom_logger] Attempting to set 'address_city.text' to 'Cape town': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:47:28,236 [custom_logger] Found element address_city in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,236 [custom_logger] Element address_city = '<toolium.pageelements.text_page_element.Text object at 0x000001DED7698CF8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:47:28,352 [custom_logger] Found element button_select in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,352 [custom_logger] Element button_select = '<toolium.pageelements.button_page_element.Button object at 0x000001DED7698668>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:47:28,353 [custom_logger] Found element button_select in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,353 [custom_logger] Element button_select = '<toolium.pageelements.button_page_element.Button object at 0x000001DED7698668>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,366 [custom_logger] button_select.id = uniform-id_state: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:47:28,499 [custom_logger] Clicked on element 'button_select': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2019-12-05 09:47:28,501 [custom_logger] Attempting to set 'address_zip.text' to '10001': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:47:28,501 [custom_logger] Found element address_zip in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,501 [custom_logger] Element address_zip = '<toolium.pageelements.text_page_element.Text object at 0x000001DED7698E10>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:47:28,633 [custom_logger] Found element address_country in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,634 [custom_logger] Element address_country = '<toolium.pageelements.button_page_element.Button object at 0x000001DED7698DA0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:47:28,634 [custom_logger] Found element address_country in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,634 [custom_logger] Element address_country = '<toolium.pageelements.button_page_element.Button object at 0x000001DED7698DA0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,652 [custom_logger] address_country.id = uniform-id_country: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:47:28,771 [custom_logger] Clicked on element 'address_country': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2019-12-05 09:47:28,773 [custom_logger] Attempting to set 'address_mobile_number.text' to '0732027291': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:47:28,774 [custom_logger] Found element address_mobile_number in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,774 [custom_logger] Element address_mobile_number = '<toolium.pageelements.text_page_element.Text object at 0x000001DED7698E48>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:47:28,932 [custom_logger] Found element register_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,932 [custom_logger] Element register_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DED76B4080>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:47:28,932 [custom_logger] Found element register_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,933 [custom_logger] Element register_button = '<toolium.pageelements.button_page_element.Button object at 0x000001DED76B4080>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:28,951 [custom_logger] register_button.class = btn btn-default button button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:47:30,757 [custom_logger] Clicked on element 'register_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:47:30,758 [environment] The scenario 'Create account process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:47:45,888 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:47:45,889 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:47:45,893 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:47:45,894 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:47:49,180 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:47:49,314 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:47:49,318 [environment] Running new scenario: Create process -- @1.1 
+INFO    2019-12-05 09:47:49,324 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:47:49,325 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:47:55,292 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:47:55,293 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:55,293 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000002879736BA90>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:55,293 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x000002879736BAC8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:55,293 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000002879736BB00>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:55,293 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000002879736BB38>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:55,293 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000002879736BB70>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:55,293 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x000002879736BBA8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:47:55,293 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x000002879736BBE0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:47:55,294 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:47:55,294 [custom_logger] Found element create_email in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:55,295 [custom_logger] Element create_email = '<toolium.pageelements.text_page_element.Text object at 0x000002879736BBA8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:47:55,445 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:55,445 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x000002879736BBE0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:47:55,446 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:55,446 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x000002879736BBE0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:47:55,469 [custom_logger] create_button.class = btn btn-default button button-medium exclusive: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:47:55,590 [custom_logger] Clicked on element 'create_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:47:55,591 [environment] The scenario 'Create process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:49:19,416 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:49:19,417 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:49:19,421 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:49:19,421 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:49:22,781 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:49:22,913 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:49:22,917 [environment] Running new scenario: Create process -- @1.1 
+INFO    2019-12-05 09:49:22,923 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:49:22,924 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:49:27,759 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:49:27,760 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:27,760 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE17A20>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:27,760 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE17A58>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:27,761 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE17A90>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:27,761 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE17AC8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:27,761 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE17B00>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:27,761 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE17B38>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:27,761 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE17B70>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:49:27,762 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:27,762 [custom_logger] Found element create_email in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:27,763 [custom_logger] Element create_email = '<toolium.pageelements.text_page_element.Text object at 0x000001FFBFE17B38>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:27,934 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:27,934 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE17B70>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:27,934 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:27,934 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE17B70>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:27,956 [custom_logger] create_button.class = btn btn-default button button-medium exclusive: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:49:28,077 [custom_logger] Clicked on element 'create_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:49:28,077 [environment] The scenario 'Create process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:49:30,253 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:49:30,254 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:49:30,259 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:49:30,259 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:49:33,589 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:49:33,720 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:49:33,722 [environment] Running new scenario: Create account process -- @1.1 
+INFO    2019-12-05 09:49:33,724 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:49:33,725 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:49:39,028 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:49:39,028 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:39,028 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE54390>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:39,029 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE546A0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:39,029 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE546D8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:39,029 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE54710>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:39,029 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54748>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:39,029 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54780>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:39,029 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE547B8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:49:39,030 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:39,030 [custom_logger] Found element create_email in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:39,031 [custom_logger] Element create_email = '<toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54780>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:39,200 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:39,201 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE547B8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:39,201 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:39,201 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE547B8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:39,229 [custom_logger] create_button.class = btn btn-default button button-medium exclusive: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:49:39,379 [custom_logger] Clicked on element 'create_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:49:39,382 [custom_logger] Attempting to load page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:49:39,383 [custom_logger] Mobile page CreateAccountPageObject = 'CreateAccountPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:49:41,483 [custom_logger] Loaded page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:49:41,483 [custom_logger] The mobile_page object = CreateAccountPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,483 [custom_logger] Element name = mrs_radio_btn, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54B70>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,483 [custom_logger] Element name = firstname, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54F98>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,483 [custom_logger] Element name = lastname, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54B38>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,483 [custom_logger] Element name = email, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54B00>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,484 [custom_logger] Element name = password, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54AC8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,484 [custom_logger] Element name = address_firstname, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54A90>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,484 [custom_logger] Element name = address_lastname, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54A58>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,484 [custom_logger] Element name = address_company, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54A20>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,485 [custom_logger] Element name = address, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE549E8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,485 [custom_logger] Element name = address_line2, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE549B0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,485 [custom_logger] Element name = address_city, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54978>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,485 [custom_logger] Element name = button_select, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54940>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,485 [custom_logger] Element name = address_state, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54908>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,485 [custom_logger] Element name = address_zip, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE548D0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,485 [custom_logger] Element name = address_country, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54898>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,486 [custom_logger] Element name = address_mobile_number, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54860>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,486 [custom_logger] Element name = address_used, value = <toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54828>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,486 [custom_logger] Element name = register_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54278>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:41,487 [custom_logger] Found element mrs_radio_btn in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:41,488 [custom_logger] Element mrs_radio_btn = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54B70>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:41,488 [custom_logger] Found element mrs_radio_btn in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:41,488 [custom_logger] Element mrs_radio_btn = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54B70>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:41,512 [custom_logger] mrs_radio_btn.class = radio: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:49:41,643 [custom_logger] Clicked on element 'mrs_radio_btn': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2019-12-05 09:49:41,644 [custom_logger] Attempting to set 'firstname.text' to 'Sinazo': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:41,645 [custom_logger] Found element firstname in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:41,645 [custom_logger] Element firstname = '<toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54F98>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:41,776 [custom_logger] Attempting to set 'lastname.text' to 'Hlalele': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:41,777 [custom_logger] Found element lastname in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:41,777 [custom_logger] Element lastname = '<toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54B38>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:41,914 [custom_logger] Attempting to set 'password.text' to 'sinawo#': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:41,915 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:41,915 [custom_logger] Element password = '<toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54AC8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:42,044 [custom_logger] Attempting to set 'address_company.text' to 'Kineticskunk': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:42,045 [custom_logger] Found element address_company in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:42,045 [custom_logger] Element address_company = '<toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54A20>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:42,218 [custom_logger] Attempting to set 'address.text' to 'groove building': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:42,218 [custom_logger] Found element address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:42,218 [custom_logger] Element address = '<toolium.pageelements.text_page_element.Text object at 0x000001FFBFE549E8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:42,412 [custom_logger] Attempting to set 'address_line2.text' to 'claremont': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:42,412 [custom_logger] Found element address_line2 in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:42,412 [custom_logger] Element address_line2 = '<toolium.pageelements.text_page_element.Text object at 0x000001FFBFE549B0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:42,545 [custom_logger] Attempting to set 'address_city.text' to 'Cape town': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:42,545 [custom_logger] Found element address_city in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:42,545 [custom_logger] Element address_city = '<toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54978>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:42,713 [custom_logger] Found element button_select in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:42,714 [custom_logger] Element button_select = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54940>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:42,714 [custom_logger] Found element button_select in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:42,714 [custom_logger] Element button_select = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54940>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:42,729 [custom_logger] button_select.id = uniform-id_state: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:49:42,862 [custom_logger] Clicked on element 'button_select': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2019-12-05 09:49:42,864 [custom_logger] Attempting to set 'address_zip.text' to '10001': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:42,864 [custom_logger] Found element address_zip in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:42,864 [custom_logger] Element address_zip = '<toolium.pageelements.text_page_element.Text object at 0x000001FFBFE548D0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:43,055 [custom_logger] Found element address_country in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:43,055 [custom_logger] Element address_country = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54898>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:43,055 [custom_logger] Found element address_country in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:43,055 [custom_logger] Element address_country = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54898>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:43,085 [custom_logger] address_country.id = uniform-id_country: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:49:43,215 [custom_logger] Clicked on element 'address_country': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2019-12-05 09:49:43,218 [custom_logger] Attempting to set 'address_mobile_number.text' to '0732027291': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:43,218 [custom_logger] Found element address_mobile_number in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:43,218 [custom_logger] Element address_mobile_number = '<toolium.pageelements.text_page_element.Text object at 0x000001FFBFE54860>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:43,389 [custom_logger] Found element register_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:43,389 [custom_logger] Element register_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54278>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:43,389 [custom_logger] Found element register_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:43,390 [custom_logger] Element register_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54278>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:43,411 [custom_logger] register_button.class = btn btn-default button button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:49:44,886 [custom_logger] Clicked on element 'register_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:49:44,886 [environment] The scenario 'Create account process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:49:47,120 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:49:47,121 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:49:47,124 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:49:47,124 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:49:50,475 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:49:50,605 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:49:50,609 [environment] Running new scenario: Negative Login process -- @1.1 
+INFO    2019-12-05 09:49:50,614 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:49:50,615 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:49:55,963 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:49:55,964 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:55,964 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFD9FC18>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:55,964 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFD9FBE0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:49:55,964 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFD9F4E0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:49:55,966 [custom_logger] Attempting to set 'email_address.text' to 'wrongemail': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:55,966 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:55,966 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFD9FC18>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:56,087 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:49:56,087 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:56,087 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFD9FBE0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:56,209 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:56,210 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFD9F4E0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:49:56,210 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:56,210 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFD9F4E0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:49:56,226 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:49:57,627 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:49:57,627 [environment] The scenario 'Negative Login process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:49:59,820 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:49:59,821 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:49:59,824 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:49:59,825 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:50:03,247 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:50:03,382 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:50:03,385 [environment] Running new scenario: Negative Login process -- @1.2 
+INFO    2019-12-05 09:50:03,390 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:03,391 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:09,074 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:09,074 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:50:09,075 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE54C88>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:50:09,075 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE546D8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:50:09,075 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54748>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:50:09,076 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:50:09,076 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:09,076 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE54C88>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:09,282 [custom_logger] Attempting to set 'password.text' to 'wrongpassword': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:50:09,283 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:09,283 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE546D8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:50:09,420 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:09,421 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54748>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:50:09,421 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:09,421 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE54748>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:09,436 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:50:10,614 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:50:10,614 [environment] The scenario 'Negative Login process -- @1.2 ' has passed
+DEBUG   2019-12-05 09:50:12,776 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:50:12,776 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:50:12,779 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:50:12,780 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:50:16,180 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:50:16,315 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:50:16,319 [environment] Running new scenario: Negative Login process -- @1.3 
+INFO    2019-12-05 09:50:16,324 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:16,325 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:21,611 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:21,612 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:50:21,612 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFD9FDD8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:50:21,612 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFD9FBE0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:50:21,612 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFD9FCC0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:50:21,613 [custom_logger] Attempting to set 'email_address.text' to 'wrongemail': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:50:21,613 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:21,613 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFD9FDD8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:21,727 [custom_logger] Attempting to set 'password.text' to 'wrongpassword': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:50:21,727 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:21,727 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFD9FBE0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:50:21,867 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:21,867 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFD9FCC0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:50:21,867 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:21,868 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFD9FCC0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:21,884 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:50:23,608 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:50:23,609 [environment] The scenario 'Negative Login process -- @1.3 ' has passed
+DEBUG   2019-12-05 09:50:25,792 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:50:25,792 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:50:25,795 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:50:25,796 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:50:29,090 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:50:29,204 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:50:29,205 [environment] Running new scenario: Positive Login process -- @1.1 
+INFO    2019-12-05 09:50:29,208 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:29,208 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:34,455 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:34,456 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:50:34,456 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE8A7B8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:50:34,456 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE8A0F0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:50:34,456 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFE8A8D0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:50:34,457 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:50:34,457 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:34,457 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE8A7B8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:34,670 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:50:34,670 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:34,670 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFE8A0F0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:50:34,795 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:34,795 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE8A8D0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:50:34,795 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:34,796 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFE8A8D0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:34,812 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:50:36,401 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:50:36,402 [environment] The scenario 'Positive Login process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:50:38,592 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:50:38,593 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:50:38,596 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:50:38,596 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:50:41,924 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:50:42,055 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:50:42,058 [environment] Running new scenario: Process of searching -- @1.1 
+INFO    2019-12-05 09:50:42,064 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:42,065 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:47,066 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:47,067 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:50:47,067 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFEA0F28>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:50:47,067 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFEA0EF0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:50:47,067 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FFBFEA0D30>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:50:47,068 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:50:47,069 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:47,069 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFEA0F28>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:47,308 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:50:47,308 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:47,309 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FFBFEA0EF0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:50:47,426 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:47,426 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFEA0D30>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:50:47,426 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:47,427 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FFBFEA0D30>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:50:47,455 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:50:49,010 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:50:49,013 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:50:49,014 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+ERROR   2019-12-05 09:51:00,760 [page_element] Page element of type 'InputText' with locator ('id', 'email') not found or is not visible after 10 seconds
+ERROR   2019-12-05 09:51:00,773 [environment] The scenario 'Process of searching -- @1.1 ' has failed
+INFO    2019-12-05 09:51:01,129 [utils] Screenshot saved in C:\Users\KINETICSKUNK-DC\ProjectDemo\output\screenshots\2019-12-05_094919_chrome\01_Process_of_searching_1_1.png
+DEBUG   2019-12-05 09:51:01,131 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2019-12-05 09:53:56,558 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:53:56,559 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:53:56,567 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:53:56,567 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:53:59,930 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:54:00,056 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:54:00,058 [environment] Running new scenario: Create process -- @1.1 
+INFO    2019-12-05 09:54:00,060 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:00,061 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:04,652 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:04,653 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:04,653 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E96787B38>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:04,653 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E96787B70>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:04,653 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E96787BA8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:04,653 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E96787BE0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:04,653 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E96787C18>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:04,653 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E96787C50>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:04,653 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E96787C88>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:54:04,654 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:04,655 [custom_logger] Found element create_email in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:04,655 [custom_logger] Element create_email = '<toolium.pageelements.text_page_element.Text object at 0x0000029E96787C50>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:04,823 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:04,823 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E96787C88>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:04,823 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:04,823 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E96787C88>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:04,852 [custom_logger] create_button.class = btn btn-default button button-medium exclusive: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:54:05,023 [custom_logger] Clicked on element 'create_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:54:05,024 [environment] The scenario 'Create process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:54:07,293 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:54:07,293 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:54:07,295 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:54:07,295 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:54:10,631 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:54:10,748 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:54:10,749 [environment] Running new scenario: Create account process -- @1.1 
+INFO    2019-12-05 09:54:10,752 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:10,752 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:15,423 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:15,424 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:15,424 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E967C7518>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:15,424 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E967C77B8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:15,424 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E967C77F0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:15,424 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E967C7828>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:15,424 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E967C7860>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:15,425 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7898>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:15,425 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E967C78D0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:54:15,426 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:15,426 [custom_logger] Found element create_email in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:15,426 [custom_logger] Element create_email = '<toolium.pageelements.text_page_element.Text object at 0x0000029E967C7898>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:15,605 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:15,606 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967C78D0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:15,606 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:15,606 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967C78D0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:15,628 [custom_logger] create_button.class = btn btn-default button button-medium exclusive: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:54:15,781 [custom_logger] Clicked on element 'create_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:54:15,782 [custom_logger] Attempting to load page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:15,783 [custom_logger] Mobile page CreateAccountPageObject = 'CreateAccountPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:19,010 [custom_logger] Loaded page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:19,011 [custom_logger] The mobile_page object = CreateAccountPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,011 [custom_logger] Element name = mrs_radio_btn, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E967C7C50>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,012 [custom_logger] Element name = firstname, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7F28>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,012 [custom_logger] Element name = lastname, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7BE0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,012 [custom_logger] Element name = email, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7BA8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,013 [custom_logger] Element name = password, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7B70>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,013 [custom_logger] Element name = address_firstname, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7B38>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,013 [custom_logger] Element name = address_lastname, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7B00>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,013 [custom_logger] Element name = address_company, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7AC8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,014 [custom_logger] Element name = address, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7A90>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,014 [custom_logger] Element name = address_line2, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7A58>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,014 [custom_logger] Element name = address_city, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7A20>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,014 [custom_logger] Element name = button_select, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E967C79E8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,015 [custom_logger] Element name = address_state, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E967C79B0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,015 [custom_logger] Element name = address_zip, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7978>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,015 [custom_logger] Element name = address_country, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E967C7940>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,015 [custom_logger] Element name = address_mobile_number, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C73C8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,016 [custom_logger] Element name = address_used, value = <toolium.pageelements.text_page_element.Text object at 0x0000029E967C7550>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,016 [custom_logger] Element name = register_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E967C7748>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:19,018 [custom_logger] Found element mrs_radio_btn in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,018 [custom_logger] Element mrs_radio_btn = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967C7C50>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:19,019 [custom_logger] Found element mrs_radio_btn in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,019 [custom_logger] Element mrs_radio_btn = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967C7C50>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,045 [custom_logger] mrs_radio_btn.class = radio: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:54:19,139 [custom_logger] Clicked on element 'mrs_radio_btn': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2019-12-05 09:54:19,140 [custom_logger] Attempting to set 'firstname.text' to 'Sinazo': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:19,140 [custom_logger] Found element firstname in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,140 [custom_logger] Element firstname = '<toolium.pageelements.text_page_element.Text object at 0x0000029E967C7F28>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,249 [custom_logger] Attempting to set 'lastname.text' to 'Hlalele': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:19,249 [custom_logger] Found element lastname in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,249 [custom_logger] Element lastname = '<toolium.pageelements.text_page_element.Text object at 0x0000029E967C7BE0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,359 [custom_logger] Attempting to set 'password.text' to 'sinawo#': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:19,360 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,360 [custom_logger] Element password = '<toolium.pageelements.text_page_element.Text object at 0x0000029E967C7B70>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,470 [custom_logger] Attempting to set 'address_company.text' to 'Kineticskunk': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:19,470 [custom_logger] Found element address_company in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,470 [custom_logger] Element address_company = '<toolium.pageelements.text_page_element.Text object at 0x0000029E967C7AC8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,627 [custom_logger] Attempting to set 'address.text' to 'groove building': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:19,628 [custom_logger] Found element address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,628 [custom_logger] Element address = '<toolium.pageelements.text_page_element.Text object at 0x0000029E967C7A90>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,816 [custom_logger] Attempting to set 'address_line2.text' to 'claremont': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:19,816 [custom_logger] Found element address_line2 in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,816 [custom_logger] Element address_line2 = '<toolium.pageelements.text_page_element.Text object at 0x0000029E967C7A58>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,933 [custom_logger] Attempting to set 'address_city.text' to 'Cape town': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:19,933 [custom_logger] Found element address_city in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:19,933 [custom_logger] Element address_city = '<toolium.pageelements.text_page_element.Text object at 0x0000029E967C7A20>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:20,067 [custom_logger] Found element button_select in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:20,067 [custom_logger] Element button_select = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967C79E8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:20,068 [custom_logger] Found element button_select in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:20,068 [custom_logger] Element button_select = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967C79E8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:20,102 [custom_logger] button_select.id = uniform-id_state: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:54:20,220 [custom_logger] Clicked on element 'button_select': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2019-12-05 09:54:20,222 [custom_logger] Attempting to set 'address_zip.text' to '10001': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:20,222 [custom_logger] Found element address_zip in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:20,222 [custom_logger] Element address_zip = '<toolium.pageelements.text_page_element.Text object at 0x0000029E967C7978>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:20,371 [custom_logger] Found element address_country in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:20,371 [custom_logger] Element address_country = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967C7940>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:20,371 [custom_logger] Found element address_country in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:20,371 [custom_logger] Element address_country = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967C7940>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:20,399 [custom_logger] address_country.id = uniform-id_country: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:54:20,517 [custom_logger] Clicked on element 'address_country': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2019-12-05 09:54:20,519 [custom_logger] Attempting to set 'address_mobile_number.text' to '0732027291': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:20,519 [custom_logger] Found element address_mobile_number in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:20,519 [custom_logger] Element address_mobile_number = '<toolium.pageelements.text_page_element.Text object at 0x0000029E967C73C8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:20,670 [custom_logger] Found element register_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:20,670 [custom_logger] Element register_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967C7748>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:20,671 [custom_logger] Found element register_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:20,671 [custom_logger] Element register_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967C7748>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:20,690 [custom_logger] register_button.class = btn btn-default button button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:54:21,948 [custom_logger] Clicked on element 'register_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:54:21,949 [environment] The scenario 'Create account process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:54:24,139 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:54:24,140 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:54:24,143 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:54:24,144 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:54:27,458 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:54:27,592 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:54:27,597 [environment] Running new scenario: Negative Login process -- @1.1 
+INFO    2019-12-05 09:54:27,609 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:27,610 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:32,140 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:32,140 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:32,140 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E9670FAC8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:32,140 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E9670FDA0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:32,141 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E9670F9E8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:54:32,141 [custom_logger] Attempting to set 'email_address.text' to 'wrongemail': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:32,142 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:32,142 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000029E9670FAC8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:32,253 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:32,253 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:32,253 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000029E9670FDA0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:32,360 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:32,361 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E9670F9E8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:32,361 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:32,361 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E9670F9E8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:32,375 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:54:33,538 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:54:33,538 [environment] The scenario 'Negative Login process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:54:35,704 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:54:35,705 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:54:35,709 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:54:35,709 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:54:39,064 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:54:39,181 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:54:39,183 [environment] Running new scenario: Negative Login process -- @1.2 
+INFO    2019-12-05 09:54:39,186 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:39,186 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:43,991 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:43,991 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:43,991 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E967D2CC0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:43,992 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E967D2D30>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:43,992 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E967D2E48>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:54:43,993 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:43,993 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:43,993 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000029E967D2CC0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:44,221 [custom_logger] Attempting to set 'password.text' to 'wrongpassword': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:44,222 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:44,222 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000029E967D2D30>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:44,354 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:44,355 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967D2E48>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:44,355 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:44,355 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967D2E48>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:44,370 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:54:45,683 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:54:45,683 [environment] The scenario 'Negative Login process -- @1.2 ' has passed
+DEBUG   2019-12-05 09:54:47,871 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:54:47,872 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:54:47,876 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:54:47,876 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:54:51,259 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:54:51,392 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:54:51,396 [environment] Running new scenario: Negative Login process -- @1.3 
+INFO    2019-12-05 09:54:51,402 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:51,403 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:55,939 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:54:55,940 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:55,940 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E9670FAC8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:55,940 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E9670FD30>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:54:55,940 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E967EA470>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:54:55,941 [custom_logger] Attempting to set 'email_address.text' to 'wrongemail': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:55,941 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:55,942 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000029E9670FAC8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:56,057 [custom_logger] Attempting to set 'password.text' to 'wrongpassword': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:54:56,057 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:56,057 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000029E9670FD30>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:56,250 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:56,250 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967EA470>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:54:56,250 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:56,250 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967EA470>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:54:56,267 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:54:57,416 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:54:57,416 [environment] The scenario 'Negative Login process -- @1.3 ' has passed
+DEBUG   2019-12-05 09:54:59,592 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:54:59,592 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:54:59,596 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:54:59,597 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:55:03,008 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:55:03,121 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:55:03,123 [environment] Running new scenario: Positive Login process -- @1.1 
+INFO    2019-12-05 09:55:03,125 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:55:03,126 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:55:07,635 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:55:07,636 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:55:07,636 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E967D2CC0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:55:07,636 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E967FA1D0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:55:07,636 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E967FA0B8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:55:07,637 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:55:07,637 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:55:07,638 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000029E967D2CC0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:55:07,844 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:55:07,844 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:55:07,845 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000029E967FA1D0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:55:07,985 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:55:07,985 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967FA0B8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:55:07,985 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:55:07,986 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E967FA0B8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:55:08,001 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:55:09,581 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:55:09,582 [environment] The scenario 'Positive Login process -- @1.1 ' has passed
+DEBUG   2019-12-05 09:55:11,791 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2019-12-05 09:55:11,791 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2019-12-05 09:55:11,793 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-12-05 09:55:11,794 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2019-12-05 09:55:15,132 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-12-05 09:55:15,265 [driver_wrapper] Window size: 1616 x 876
+INFO    2019-12-05 09:55:15,269 [environment] Running new scenario: Process of searching -- @1.1 
+INFO    2019-12-05 09:55:15,275 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:55:15,276 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:55:19,922 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:55:19,922 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:55:19,923 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E9680FFD0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:55:19,923 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000029E968190B8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2019-12-05 09:55:19,923 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000029E968190F0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2019-12-05 09:55:19,924 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:55:19,924 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:55:19,924 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000029E9680FFD0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:55:20,267 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2019-12-05 09:55:20,267 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:55:20,268 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000029E968190B8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:55:20,381 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:55:20,381 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E968190F0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2019-12-05 09:55:20,381 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:55:20,381 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000029E968190F0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2019-12-05 09:55:20,396 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2019-12-05 09:55:21,929 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2019-12-05 09:55:21,931 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2019-12-05 09:55:21,932 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+ERROR   2019-12-05 09:55:33,665 [page_element] Page element of type 'InputText' with locator ('id', 'email') not found or is not visible after 10 seconds
+ERROR   2019-12-05 09:55:33,679 [environment] The scenario 'Process of searching -- @1.1 ' has failed
+INFO    2019-12-05 09:55:34,022 [utils] Screenshot saved in C:\Users\KINETICSKUNK-DC\ProjectDemo\output\screenshots\2019-12-05_095356_chrome\01_Process_of_searching_1_1.png
+DEBUG   2019-12-05 09:55:34,024 [utils] Reading logs from 'client, server' and writing them to log files

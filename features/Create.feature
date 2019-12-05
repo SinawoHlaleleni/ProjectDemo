@@ -17,6 +17,6 @@ Scenario Outline: Create process
 
 
   Examples:
-   |email_input          |
-   |mpLwando@gmail.com   |
+   |email_input            |
+   | mpLwando@gmail.com    |
 
