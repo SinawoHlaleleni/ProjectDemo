@@ -6,7 +6,7 @@ Feature: Login
     When the user sets the "text" value of element "email_address" to "<email_input>"
     And the user sets the "text" value of element "password" to "<password_input>"
     And the user clicks the "sign_in_button" where "class" has a value of "button btn btn-default button-medium"
-    #Then display message stating that user credentials are incorrect
+   
 Examples:
   |               email_input              |      password_input      |
   |               wrongemail               |        74569852          |
