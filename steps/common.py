@@ -14,6 +14,16 @@ def step_impl(context, page_name=""):
         "page_name = {}, class_name = {}" \
             .format(page_name, context.current_page.mobile_page.__class__.__name__)
 
+# @given('close "{page_name}"')
+# @when('close "{page_name}"')
+# @then('close "{page_name}"')
+# def step_impl(context, page_name=""):
+#     context.current_page = CommonPageObject().init_web_page(page_name)
+#     context.current_page = context.current_page.init_web_page_elements(context.current_page.mobile_page)
+#     assert page_name in context.current_page.mobile_page.__class__.__name__, \
+#         "page_name = {}, class_name = {}" \
+#             .format(page_name, context.current_page.mobile_page.__class__.__name__)
+
 
 @given('the "{element_name}" element "{attribute_name}" has a value of "{expected_value}"')
 @when('the "{element_name}" element "{attribute_name}" has a value of "{expected_value}"')

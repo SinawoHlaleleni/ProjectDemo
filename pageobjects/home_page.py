@@ -24,6 +24,8 @@ from toolium.pageelements import *
 from toolium.pageobjects.page_object import PageObject
 
 
+
+
 # driver = webdriver.Chrome(executable_path="C:\Drivers\chromedriver.exe")
 
 
@@ -42,14 +44,16 @@ class HomePageObject(PageObject):
     # item = None
     # button = None
     # add_to_cart = None
+    logo = None
 
     def init_page_elements(self):
         """Initialize mobile page elements using element locator."""
         self.search = InputText(By.ID, 'search_query_top', wait=True)
         self.search_btn = Button(By.NAME, 'submit_search', wait=True)
-        self.email_address = InputText(By.ID, 'email', wait=True)
-        self.password = InputText(By.ID, 'passwd', wait=True)
-        self.sign_in_button = Button(By.ID, 'SubmitLogin', wait=True)
+        self.email_address = InputText(By.ID, 'email', wait=False)
+        self.password = InputText(By.ID, 'passwd', wait=False)
+        self.sign_in_button = Button(By.ID, 'SubmitLogin', wait=False)
+
 
         self.create_email = Text(By.ID, 'email_create')
         self.create_button = Button(By.ID, 'SubmitCreate')
