@@ -32,7 +32,12 @@ class HomePageObject(PageObject):
 
     search = None
     search_btn = None
-
+    email_address = None
+    password = None
+    sign_in_button = None
+    create_email = None
+    submit_button = None
+    create_button = None
     # more_btn = None
     # item = None
     # button = None
@@ -42,6 +47,12 @@ class HomePageObject(PageObject):
         """Initialize mobile page elements using element locator."""
         self.search = InputText(By.ID, 'search_query_top', wait=True)
         self.search_btn = Button(By.NAME, 'submit_search', wait=True)
+        self.email_address = InputText(By.ID, 'email', wait=True)
+        self.password = InputText(By.ID, 'passwd', wait=True)
+        self.sign_in_button = Button(By.ID, 'SubmitLogin', wait=True)
+
+        self.create_email = Text(By.ID, 'email_create')
+        self.create_button = Button(By.ID, 'SubmitCreate')
 
     # def web_scroll(self):
     #     self.driver.execute_script("window.scrollTo(0, 500)")

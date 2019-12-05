@@ -37,5 +37,5 @@ Feature: CreateAccount
 
 
 Examples:
-    | email_input                  |firstname_input| lastname_input | password_input | company_input | address_input    | address_line2_input | city_input | zip_input |country             | mobile_input |
-    | mpLwando@gmail.com           |Sinazo         | Hlalele        | sinawo#        | Kineticskunk  | groove building  | claremont           | Cape town  | 10001     | United state       |0732027291    |
+    | email_input                   |firstname_input| lastname_input | password_input  | company_input | address_input    | address_line2_input | city_input | zip_input |country             | mobile_input |
+    |  mpLwando@gmail.com           |Sinazo         | Hlalele        | sinawo#         | Kineticskunk  | groove building  | claremont           | Cape town  | 10001     | United state       |0732027291    |
