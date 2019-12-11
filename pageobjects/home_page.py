@@ -15,7 +15,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 from datetime import time
-from idlelib import window
+# from idlelib import window
 
 from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome import webdriver
