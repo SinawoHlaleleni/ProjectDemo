@@ -10,14 +10,17 @@ $ pip install -r requirements.txt
 
 # Running Tests
 
-By default, example tests are configured to run in chrome locally, so chrome must be installed in your machine and the chrome driver must be downloaded and configured:
-
-* Download chromedriver_*.zip
+* download chrome using: https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=en
+* Download chromedriver using: https://chromedriver.storage.googleapis.com/index.html?path=79.0.3945.36/
 * Unzip file and save the executable in a local folder
 * Configure driver path in [Driver] section in conf/properties.cfg file
+
     [Driver]
     example below:
     chrome_driver_path:C:\Windows\chromedriver.exe
+
+install pipenv using: https://pipenv-es.readthedocs.io/es/stable/
+activate pipenv : https://thoughtbot.com/blog/how-to-manage-your-python-projects-with-pipenv
 
 To run end to end tests:
 $ behave
