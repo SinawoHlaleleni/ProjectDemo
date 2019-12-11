@@ -24,11 +24,6 @@ from toolium.pageelements import *
 from toolium.pageobjects.page_object import PageObject
 
 
-
-
-# driver = webdriver.Chrome(executable_path="C:\Drivers\chromedriver.exe")
-
-
 class HomePageObject(PageObject):
     """Class represents mobile page elements for Home page."""
 
@@ -53,7 +48,6 @@ class HomePageObject(PageObject):
         self.email_address = InputText(By.ID, 'email', wait=False)
         self.password = InputText(By.ID, 'passwd', wait=False)
         self.sign_in_button = Button(By.ID, 'SubmitLogin', wait=False)
-
 
         self.create_email = Text(By.ID, 'email_create')
         self.create_button = Button(By.ID, 'SubmitCreate')
