@@ -17,7 +17,6 @@ $ git clone https://github.com/SinawoHlaleleni/ProjectDemo.git
 $ cd ProjectDemo
 $ pip install pipenv
 $ pipenv shell
-$ pip install -r requirements.txt
 ```
 
 
