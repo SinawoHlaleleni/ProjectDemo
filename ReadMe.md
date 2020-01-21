@@ -28,7 +28,7 @@ By default, example tests are configured to run in chrome locally, so chrome mus
 - Configure driver path in [Driver] section in conf/properties.cfg file
     ```sh
     [Driver]
-    chrome_driver_path: C:\Drivers\chromedriver.exe
+    chrome_driver_path: C:\Windows\chromedriver.exe
     ```
     
 To Run all tests:
