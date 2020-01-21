@@ -8157,3 +8157,871 @@ DEBUG   2019-12-11 16:31:29,025 [connectionpool] http://127.0.0.1:53494 "POST /s
 DEBUG   2019-12-11 16:31:29,025 [custom_logger] search.ID = search_query_top: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
 INFO    2019-12-11 16:31:29,025 [environment] The scenario 'Positive Login process -- @1.1 ' has passed
 DEBUG   2019-12-11 16:31:29,094 [connectionpool] http://127.0.0.1:53494 "DELETE /session/c322514b29067a99d871380d2ec36cdc HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:04,527 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2020-01-17 10:19:04,527 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2020-01-17 10:19:04,551 [config_driver] Creating local driver (type = chrome)
+DEBUG   2020-01-17 10:19:04,551 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2020-01-17 10:19:05,090 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:50202
+DEBUG   2020-01-17 10:19:06,890 [connectionpool] http://127.0.0.1:50202 "POST /session HTTP/1.1" 200 683
+DEBUG   2020-01-17 10:19:08,015 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/window/rect HTTP/1.1" 200 49
+DEBUG   2020-01-17 10:19:08,015 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2020-01-17 10:19:08,132 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/window/maximize HTTP/1.1" 200 51
+DEBUG   2020-01-17 10:19:08,136 [connectionpool] http://127.0.0.1:50202 "GET /session/69ecc83bd680c91149346ac6a731c310/window/rect HTTP/1.1" 200 51
+DEBUG   2020-01-17 10:19:08,136 [driver_wrapper] Window size: 1616 x 876
+DEBUG   2020-01-17 10:19:08,138 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:08,139 [environment] Running new scenario: Create account process -- @1.1 
+INFO    2020-01-17 10:19:08,142 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:19:08,143 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+DEBUG   2020-01-17 10:19:13,809 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/url HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:13,811 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:13,832 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:13,852 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:13,854 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:13,855 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:13,868 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:13,886 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:13,887 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:13,888 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:19:13,888 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:13,888 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A3D3C8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:13,888 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A3D6A0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:13,889 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A3D860>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:13,889 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A3D898>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:13,889 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A3D8D0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:13,889 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A3D908>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:13,889 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A3D940>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2020-01-17 10:19:13,891 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:13,891 [custom_logger] Found element create_email in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:13,891 [custom_logger] Element create_email = '<toolium.pageelements.text_page_element.Text object at 0x0000020DC4A3D908>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:13,905 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:14,132 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/3e05e4fb-eae7-4c15-bf99-3139c834ee4f/value HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:14,134 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:14,134 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A3D940>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-17 10:19:14,135 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:14,135 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A3D940>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:14,152 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:14,161 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 58
+DEBUG   2020-01-17 10:19:14,161 [custom_logger] create_button.class = btn btn-default button button-medium exclusive: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-17 10:19:14,163 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:14,174 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:14,189 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:14,203 [connectionpool] http://127.0.0.1:50202 "GET /session/69ecc83bd680c91149346ac6a731c310/element/4ceca981-3d66-41ca-8be6-511211eee222/enabled HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:14,205 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:14,214 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:14,293 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/4ceca981-3d66-41ca-8be6-511211eee222/click HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:14,294 [custom_logger] Clicked on element 'create_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-17 10:19:14,296 [custom_logger] Attempting to load page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:19:14,297 [custom_logger] Mobile page CreateAccountPageObject = 'CreateAccountPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+DEBUG   2020-01-17 10:19:14,309 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/url HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:14,311 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:14,331 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 404 1059
+DEBUG   2020-01-17 10:19:14,858 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 404 1059
+DEBUG   2020-01-17 10:19:15,370 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 404 1059
+DEBUG   2020-01-17 10:19:15,885 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 404 1059
+DEBUG   2020-01-17 10:19:16,598 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:16,627 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:16,631 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:16,632 [custom_logger] Loaded page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:19:16,632 [custom_logger] The mobile_page object = CreateAccountPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,632 [custom_logger] Element name = mrs_radio_btn, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A604A8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,633 [custom_logger] Element name = firstname, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60518>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,633 [custom_logger] Element name = lastname, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60588>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,633 [custom_logger] Element name = email, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A605F8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,633 [custom_logger] Element name = password, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60630>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,634 [custom_logger] Element name = address_firstname, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60668>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,634 [custom_logger] Element name = address_lastname, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A606A0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,634 [custom_logger] Element name = address_company, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A606D8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,634 [custom_logger] Element name = address, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60710>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,634 [custom_logger] Element name = address_line2, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60748>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,635 [custom_logger] Element name = address_city, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60780>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,635 [custom_logger] Element name = button_select, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A607B8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,635 [custom_logger] Element name = address_state, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A607F0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,635 [custom_logger] Element name = address_zip, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60828>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,635 [custom_logger] Element name = address_country, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60860>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,635 [custom_logger] Element name = address_mobile_number, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60898>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,636 [custom_logger] Element name = address_used, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4A608D0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,636 [custom_logger] Element name = register_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60908>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:16,638 [custom_logger] Found element mrs_radio_btn in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:16,639 [custom_logger] Element mrs_radio_btn = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A604A8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-17 10:19:16,639 [custom_logger] Found element mrs_radio_btn in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:16,639 [custom_logger] Element mrs_radio_btn = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A604A8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:16,661 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:16,673 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 17
+DEBUG   2020-01-17 10:19:16,674 [custom_logger] mrs_radio_btn.class = radio: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-17 10:19:16,675 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:16,687 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:16,703 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:16,713 [connectionpool] http://127.0.0.1:50202 "GET /session/69ecc83bd680c91149346ac6a731c310/element/abb15e75-8887-4a59-9456-1ffd2a019387/enabled HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:16,714 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:16,722 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:16,790 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/abb15e75-8887-4a59-9456-1ffd2a019387/click HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:16,790 [custom_logger] Clicked on element 'mrs_radio_btn': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2020-01-17 10:19:16,791 [custom_logger] Attempting to set 'firstname.text' to 'Sinazo': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:16,791 [custom_logger] Found element firstname in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:16,791 [custom_logger] Element firstname = '<toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60518>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:16,805 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:16,947 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/7cab1fc2-ba74-4300-9485-9c30217408b3/value HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:16,949 [custom_logger] Attempting to set 'lastname.text' to 'Hlalele': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:16,949 [custom_logger] Found element lastname in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:16,949 [custom_logger] Element lastname = '<toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60588>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:16,967 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:17,114 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/c1678111-6f5e-4ff2-b5da-7c7b5ee70f68/value HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:17,117 [custom_logger] Attempting to set 'password.text' to 'sinawo#': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:17,118 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,118 [custom_logger] Element password = '<toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60630>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,136 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:17,328 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/83a5f119-8ee2-4611-8991-804d67fa47a7/value HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:17,329 [custom_logger] Attempting to set 'address_company.text' to 'Kineticskunk': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:17,329 [custom_logger] Found element address_company in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,329 [custom_logger] Element address_company = '<toolium.pageelements.text_page_element.Text object at 0x0000020DC4A606D8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,345 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:17,519 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/e31c4966-a827-455c-a8a6-0402fc7b6736/value HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:17,521 [custom_logger] Attempting to set 'address.text' to 'groove building': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:17,521 [custom_logger] Found element address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,521 [custom_logger] Element address = '<toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60710>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,535 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:17,690 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/08449d6a-0564-4f85-9598-56290f8f71f9/value HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:17,692 [custom_logger] Attempting to set 'address_line2.text' to 'claremont': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:17,693 [custom_logger] Found element address_line2 in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,693 [custom_logger] Element address_line2 = '<toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60748>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,714 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:17,846 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/4db71a40-4c12-42ea-bbd6-9ffb682653ae/value HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:17,847 [custom_logger] Attempting to set 'address_city.text' to 'Cape town': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:17,847 [custom_logger] Found element address_city in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,847 [custom_logger] Element address_city = '<toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60780>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,860 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:17,975 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/3252308f-7b31-4a4a-9cb6-2a430e93ef4b/value HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:17,977 [custom_logger] Found element button_select in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,978 [custom_logger] Element button_select = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A607B8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-17 10:19:17,978 [custom_logger] Found element button_select in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,978 [custom_logger] Element button_select = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A607B8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:17,987 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:17,996 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 28
+DEBUG   2020-01-17 10:19:17,997 [custom_logger] button_select.id = uniform-id_state: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-17 10:19:17,998 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,009 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:18,033 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,044 [connectionpool] http://127.0.0.1:50202 "GET /session/69ecc83bd680c91149346ac6a731c310/element/b402717b-9344-41f7-b891-a50551e70b03/enabled HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,046 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,053 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:18,151 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/b402717b-9344-41f7-b891-a50551e70b03/click HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,151 [custom_logger] Clicked on element 'button_select': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2020-01-17 10:19:18,152 [custom_logger] Attempting to set 'address_zip.text' to '10001': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:18,152 [custom_logger] Found element address_zip in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:18,152 [custom_logger] Element address_zip = '<toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60828>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:18,184 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:18,297 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/3b49b09b-a61f-40e7-a531-6b5158733ba7/value HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:18,299 [custom_logger] Found element address_country in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:18,299 [custom_logger] Element address_country = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60860>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-17 10:19:18,299 [custom_logger] Found element address_country in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:18,299 [custom_logger] Element address_country = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60860>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:18,336 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:18,354 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 30
+DEBUG   2020-01-17 10:19:18,354 [custom_logger] address_country.id = uniform-id_country: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-17 10:19:18,356 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,368 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:18,383 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,395 [connectionpool] http://127.0.0.1:50202 "GET /session/69ecc83bd680c91149346ac6a731c310/element/b2447ad7-5a57-4dda-841e-509db69ea38e/enabled HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,397 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,405 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:18,482 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/b2447ad7-5a57-4dda-841e-509db69ea38e/click HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,482 [custom_logger] Clicked on element 'address_country': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2020-01-17 10:19:18,484 [custom_logger] Attempting to set 'address_mobile_number.text' to '0732027291': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:18,484 [custom_logger] Found element address_mobile_number in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:18,484 [custom_logger] Element address_mobile_number = '<toolium.pageelements.text_page_element.Text object at 0x0000020DC4A60898>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:18,503 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:18,678 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/f212ac56-3bc9-4f13-85af-2e3aff1c9cd0/value HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:18,680 [custom_logger] Found element register_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:18,680 [custom_logger] Element register_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60908>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-17 10:19:18,680 [custom_logger] Found element register_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:18,680 [custom_logger] Element register_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60908>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:18,695 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:18,702 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 48
+DEBUG   2020-01-17 10:19:18,702 [custom_logger] register_button.class = btn btn-default button button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-17 10:19:18,703 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,713 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:18,728 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,738 [connectionpool] http://127.0.0.1:50202 "GET /session/69ecc83bd680c91149346ac6a731c310/element/f927c9e9-9110-41de-b079-061079e7992d/enabled HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,740 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:18,749 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:20,274 [connectionpool] http://127.0.0.1:50202 "POST /session/69ecc83bd680c91149346ac6a731c310/element/f927c9e9-9110-41de-b079-061079e7992d/click HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:20,275 [custom_logger] Clicked on element 'register_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-17 10:19:20,275 [environment] The scenario 'Create account process -- @1.1 ' has passed
+DEBUG   2020-01-17 10:19:20,361 [connectionpool] http://127.0.0.1:50202 "DELETE /session/69ecc83bd680c91149346ac6a731c310 HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:22,516 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2020-01-17 10:19:22,516 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2020-01-17 10:19:22,519 [config_driver] Creating local driver (type = chrome)
+DEBUG   2020-01-17 10:19:22,519 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2020-01-17 10:19:23,046 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:50233
+DEBUG   2020-01-17 10:19:24,895 [connectionpool] http://127.0.0.1:50233 "POST /session HTTP/1.1" 200 682
+DEBUG   2020-01-17 10:19:26,021 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/window/rect HTTP/1.1" 200 49
+DEBUG   2020-01-17 10:19:26,022 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2020-01-17 10:19:26,153 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/window/maximize HTTP/1.1" 200 51
+DEBUG   2020-01-17 10:19:26,162 [connectionpool] http://127.0.0.1:50233 "GET /session/e9bfe084408bc7a568e813986495b110/window/rect HTTP/1.1" 200 51
+DEBUG   2020-01-17 10:19:26,164 [driver_wrapper] Window size: 1616 x 876
+DEBUG   2020-01-17 10:19:26,167 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/timeouts HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:26,169 [environment] Running new scenario: Negative Login process -- @1.1 
+INFO    2020-01-17 10:19:26,176 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:19:26,178 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+DEBUG   2020-01-17 10:19:32,184 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/url HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,190 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,232 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:32,263 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,265 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,266 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,281 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:32,297 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,298 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,299 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,312 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:32,326 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,327 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/timeouts HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:32,328 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:19:32,328 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:32,328 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A603C8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:32,328 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A60198>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:32,329 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60400>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2020-01-17 10:19:32,330 [custom_logger] Attempting to set 'email_address.text' to 'wrongemail': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:32,330 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:32,330 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A603C8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:32,339 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:32,445 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/element/f0afa4e3-9cfb-4ed5-b718-7ed98b50bfc6/value HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,447 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:32,447 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:32,448 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A60198>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:32,461 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:32,557 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/element/ea13bfa7-0f6f-4eff-af28-393ddb00dc4e/value HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:32,559 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:32,560 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60400>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-17 10:19:32,560 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:32,560 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60400>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:32,569 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:32,581 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/execute/sync HTTP/1.1" 200 48
+DEBUG   2020-01-17 10:19:32,582 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-17 10:19:32,583 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,591 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:32,603 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,615 [connectionpool] http://127.0.0.1:50233 "GET /session/e9bfe084408bc7a568e813986495b110/element/f5d0b36b-96f8-4836-94c2-636f8848d6cf/enabled HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,616 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:32,623 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:33,954 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/element/f5d0b36b-96f8-4836-94c2-636f8848d6cf/click HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:33,955 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-17 10:19:33,957 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:33,957 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60400>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:33,967 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:33,975 [connectionpool] http://127.0.0.1:50233 "POST /session/e9bfe084408bc7a568e813986495b110/execute/sync HTTP/1.1" 200 23
+DEBUG   2020-01-17 10:19:33,976 [custom_logger] sign_in_button.ID = SubmitLogin: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+INFO    2020-01-17 10:19:33,976 [environment] The scenario 'Negative Login process -- @1.1 ' has passed
+DEBUG   2020-01-17 10:19:34,046 [connectionpool] http://127.0.0.1:50233 "DELETE /session/e9bfe084408bc7a568e813986495b110 HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:36,728 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2020-01-17 10:19:36,729 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2020-01-17 10:19:36,733 [config_driver] Creating local driver (type = chrome)
+DEBUG   2020-01-17 10:19:36,733 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2020-01-17 10:19:37,259 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:50261
+DEBUG   2020-01-17 10:19:39,064 [connectionpool] http://127.0.0.1:50261 "POST /session HTTP/1.1" 200 681
+DEBUG   2020-01-17 10:19:40,184 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/window/rect HTTP/1.1" 200 49
+DEBUG   2020-01-17 10:19:40,185 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2020-01-17 10:19:40,317 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/window/maximize HTTP/1.1" 200 51
+DEBUG   2020-01-17 10:19:40,326 [connectionpool] http://127.0.0.1:50261 "GET /session/9fd179ae22e5b4839ea14ca8c94a69a8/window/rect HTTP/1.1" 200 51
+DEBUG   2020-01-17 10:19:40,327 [driver_wrapper] Window size: 1616 x 876
+DEBUG   2020-01-17 10:19:40,330 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/timeouts HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:40,335 [environment] Running new scenario: Negative Login process -- @1.2 
+INFO    2020-01-17 10:19:40,342 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:19:40,344 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+DEBUG   2020-01-17 10:19:47,104 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/url HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,106 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,148 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:47,184 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,186 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,188 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,207 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:47,225 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,226 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,227 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,240 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:47,253 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,254 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/timeouts HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:47,255 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:19:47,255 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:47,255 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A60DD8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:47,255 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A60DA0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:19:47,255 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60C88>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2020-01-17 10:19:47,257 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:47,257 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:47,257 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A60DD8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:47,266 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:47,527 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/element/e0eb2dc5-4ca8-480e-bac9-41bece123907/value HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,528 [custom_logger] Attempting to set 'password.text' to 'wrongpassword': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:19:47,528 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:47,529 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A60DA0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:47,539 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:47,671 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/element/1e62e7a1-b47a-41c3-867c-99fa5f378b91/value HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:47,673 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:47,673 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60C88>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-17 10:19:47,673 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:47,673 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60C88>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:47,684 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:47,692 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/execute/sync HTTP/1.1" 200 48
+DEBUG   2020-01-17 10:19:47,693 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-17 10:19:47,694 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,703 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:47,714 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,727 [connectionpool] http://127.0.0.1:50261 "GET /session/9fd179ae22e5b4839ea14ca8c94a69a8/element/6ef783df-578e-404a-a613-3ff5a02d0c75/enabled HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,728 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:47,738 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:49,303 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/element/6ef783df-578e-404a-a613-3ff5a02d0c75/click HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:49,304 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-17 10:19:49,305 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:49,306 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60C88>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:19:49,317 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:19:49,329 [connectionpool] http://127.0.0.1:50261 "POST /session/9fd179ae22e5b4839ea14ca8c94a69a8/execute/sync HTTP/1.1" 200 23
+DEBUG   2020-01-17 10:19:49,330 [custom_logger] sign_in_button.ID = SubmitLogin: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+INFO    2020-01-17 10:19:49,330 [environment] The scenario 'Negative Login process -- @1.2 ' has passed
+DEBUG   2020-01-17 10:19:49,399 [connectionpool] http://127.0.0.1:50261 "DELETE /session/9fd179ae22e5b4839ea14ca8c94a69a8 HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:19:51,475 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2020-01-17 10:19:51,476 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2020-01-17 10:19:51,479 [config_driver] Creating local driver (type = chrome)
+DEBUG   2020-01-17 10:19:51,480 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2020-01-17 10:19:52,020 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:50289
+DEBUG   2020-01-17 10:19:53,702 [connectionpool] http://127.0.0.1:50289 "POST /session HTTP/1.1" 200 682
+DEBUG   2020-01-17 10:19:54,814 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/window/rect HTTP/1.1" 200 49
+DEBUG   2020-01-17 10:19:54,814 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2020-01-17 10:19:54,928 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/window/maximize HTTP/1.1" 200 51
+DEBUG   2020-01-17 10:19:54,932 [connectionpool] http://127.0.0.1:50289 "GET /session/52a1245efe457a08f09de40ecbd06dc7/window/rect HTTP/1.1" 200 51
+DEBUG   2020-01-17 10:19:54,932 [driver_wrapper] Window size: 1616 x 876
+DEBUG   2020-01-17 10:19:54,934 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/timeouts HTTP/1.1" 200 14
+INFO    2020-01-17 10:19:54,935 [environment] Running new scenario: Negative Login process -- @1.3 
+INFO    2020-01-17 10:19:54,938 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:19:54,938 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+DEBUG   2020-01-17 10:20:01,161 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/url HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,167 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,213 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:01,260 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,263 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,265 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,299 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:01,347 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,352 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,356 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,391 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:01,427 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,430 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/timeouts HTTP/1.1" 200 14
+INFO    2020-01-17 10:20:01,431 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:20:01,432 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:01,432 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A726D8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:01,432 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A72320>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:01,433 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A72198>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2020-01-17 10:20:01,437 [custom_logger] Attempting to set 'email_address.text' to 'wrongemail': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:20:01,438 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:01,438 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A726D8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:01,462 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:01,630 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/element/f3e71e0a-a908-496d-ae4a-83b43a0b0d2f/value HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,631 [custom_logger] Attempting to set 'password.text' to 'wrongpassword': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:20:01,632 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:01,632 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A72320>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:01,640 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:01,759 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/element/3f143584-932b-4f07-ba49-f813501df45a/value HTTP/1.1" 200 14
+INFO    2020-01-17 10:20:01,760 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:01,761 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A72198>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-17 10:20:01,761 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:01,761 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A72198>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:01,769 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:01,779 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/execute/sync HTTP/1.1" 200 48
+DEBUG   2020-01-17 10:20:01,779 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-17 10:20:01,780 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,789 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:01,800 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,812 [connectionpool] http://127.0.0.1:50289 "GET /session/52a1245efe457a08f09de40ecbd06dc7/element/708e85d6-c119-4fac-b531-89a82da8caa9/enabled HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,813 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:01,822 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:03,220 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/element/708e85d6-c119-4fac-b531-89a82da8caa9/click HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:03,220 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-17 10:20:03,222 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:03,222 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A72198>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:03,234 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:03,245 [connectionpool] http://127.0.0.1:50289 "POST /session/52a1245efe457a08f09de40ecbd06dc7/execute/sync HTTP/1.1" 200 23
+DEBUG   2020-01-17 10:20:03,246 [custom_logger] sign_in_button.ID = SubmitLogin: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+INFO    2020-01-17 10:20:03,246 [environment] The scenario 'Negative Login process -- @1.3 ' has passed
+DEBUG   2020-01-17 10:20:03,328 [connectionpool] http://127.0.0.1:50289 "DELETE /session/52a1245efe457a08f09de40ecbd06dc7 HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:05,409 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2020-01-17 10:20:05,410 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2020-01-17 10:20:05,414 [config_driver] Creating local driver (type = chrome)
+DEBUG   2020-01-17 10:20:05,414 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2020-01-17 10:20:05,952 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:50317
+DEBUG   2020-01-17 10:20:07,711 [connectionpool] http://127.0.0.1:50317 "POST /session HTTP/1.1" 200 682
+DEBUG   2020-01-17 10:20:08,823 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/window/rect HTTP/1.1" 200 49
+DEBUG   2020-01-17 10:20:08,823 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2020-01-17 10:20:08,937 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/window/maximize HTTP/1.1" 200 51
+DEBUG   2020-01-17 10:20:08,942 [connectionpool] http://127.0.0.1:50317 "GET /session/0520fe11800e21d5d367852a2e398cdf/window/rect HTTP/1.1" 200 51
+DEBUG   2020-01-17 10:20:08,942 [driver_wrapper] Window size: 1616 x 876
+DEBUG   2020-01-17 10:20:08,944 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+INFO    2020-01-17 10:20:08,945 [environment] Running new scenario: Positive Login process -- @1.1 
+INFO    2020-01-17 10:20:08,947 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:20:08,948 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+DEBUG   2020-01-17 10:20:17,336 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/url HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:17,350 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:17,390 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:17,436 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:17,440 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:17,443 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:17,479 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:17,523 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:17,526 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:17,529 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:17,561 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:17,593 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:17,597 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+INFO    2020-01-17 10:20:17,598 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:20:17,599 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:17,599 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A91BA8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:17,600 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A919B0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:17,600 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A91518>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2020-01-17 10:20:17,603 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:20:17,603 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:17,604 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A91BA8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:17,623 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:17,900 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element/a3fd2553-80eb-42dc-b873-efdf5abb7603/value HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:17,901 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-17 10:20:17,902 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:17,902 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A919B0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:17,910 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:18,000 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element/75380198-a648-48e1-b42f-20210e26f8c9/value HTTP/1.1" 200 14
+INFO    2020-01-17 10:20:18,002 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:18,002 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A91518>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-17 10:20:18,002 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:18,002 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x0000020DC4A91518>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:18,010 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:18,022 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/execute/sync HTTP/1.1" 200 48
+DEBUG   2020-01-17 10:20:18,023 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-17 10:20:18,024 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:18,039 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:18,054 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:18,066 [connectionpool] http://127.0.0.1:50317 "GET /session/0520fe11800e21d5d367852a2e398cdf/element/73bb569c-b39a-4ed9-9fff-f625f9b7bcd0/enabled HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:18,067 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:18,074 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:20,226 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element/73bb569c-b39a-4ed9-9fff-f625f9b7bcd0/click HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:20,227 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-17 10:20:20,228 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:20:20,229 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+DEBUG   2020-01-17 10:20:22,465 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/url HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:22,470 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:22,496 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:22,515 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:22,518 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:22,520 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:22,540 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:22,559 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-17 10:20:22,562 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/timeouts HTTP/1.1" 200 14
+INFO    2020-01-17 10:20:22,562 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-17 10:20:22,563 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:22,563 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A60470>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:22,563 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4A60160>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:22,563 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A60F28>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:22,564 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4AB8A20>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:22,564 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4AB87B8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:22,564 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x0000020DC4AB8978>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:22,564 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000020DC4AB8780>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-17 10:20:22,566 [custom_logger] Found element search in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:22,566 [custom_logger] Element search = '<toolium.pageelements.input_text_page_element.InputText object at 0x0000020DC4A60470>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-17 10:20:22,579 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/element HTTP/1.1" 200 88
+DEBUG   2020-01-17 10:20:22,593 [connectionpool] http://127.0.0.1:50317 "POST /session/0520fe11800e21d5d367852a2e398cdf/execute/sync HTTP/1.1" 200 28
+DEBUG   2020-01-17 10:20:22,593 [custom_logger] search.ID = search_query_top: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+INFO    2020-01-17 10:20:22,594 [environment] The scenario 'Positive Login process -- @1.1 ' has passed
+DEBUG   2020-01-17 10:20:22,673 [connectionpool] http://127.0.0.1:50317 "DELETE /session/0520fe11800e21d5d367852a2e398cdf HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:18,477 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2020-01-21 10:54:18,477 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2020-01-21 10:54:18,494 [config_driver] Creating local driver (type = chrome)
+DEBUG   2020-01-21 10:54:18,494 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2020-01-21 10:54:19,017 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:49673
+DEBUG   2020-01-21 10:54:20,780 [connectionpool] http://127.0.0.1:49673 "POST /session HTTP/1.1" 200 682
+DEBUG   2020-01-21 10:54:21,900 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/window/rect HTTP/1.1" 200 49
+DEBUG   2020-01-21 10:54:21,901 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2020-01-21 10:54:22,032 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/window/maximize HTTP/1.1" 200 51
+DEBUG   2020-01-21 10:54:22,035 [connectionpool] http://127.0.0.1:49673 "GET /session/32e5ac1875635137040648f66cbfba43/window/rect HTTP/1.1" 200 51
+DEBUG   2020-01-21 10:54:22,035 [driver_wrapper] Window size: 1616 x 876
+DEBUG   2020-01-21 10:54:22,036 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+INFO    2020-01-21 10:54:22,037 [environment] Running new scenario: Create account process -- @1.1 
+INFO    2020-01-21 10:54:22,040 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 10:54:22,040 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+DEBUG   2020-01-21 10:54:27,643 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/url HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:27,645 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:27,663 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:27,684 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:27,686 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:27,687 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:27,701 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:27,721 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:27,722 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+INFO    2020-01-21 10:54:27,723 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 10:54:27,724 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:27,724 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000021BA5F3C518>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:27,724 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x0000021BA5F3C780>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:27,724 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000021BA5F3C978>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:27,724 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x0000021BA5F3C9B0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:27,725 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000021BA5F3C9E8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:27,725 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F3CA20>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:27,725 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000021BA5F3CA58>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2020-01-21 10:54:27,726 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 10:54:27,727 [custom_logger] Found element create_email in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:27,727 [custom_logger] Element create_email = '<toolium.pageelements.text_page_element.Text object at 0x0000021BA5F3CA20>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:27,741 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:27,945 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element/f5fed114-41d9-4442-93f8-e05bf8368bac/value HTTP/1.1" 200 14
+INFO    2020-01-21 10:54:27,947 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:27,947 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x0000021BA5F3CA58>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 10:54:27,947 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:27,948 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x0000021BA5F3CA58>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:27,966 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:27,975 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/execute/sync HTTP/1.1" 200 58
+DEBUG   2020-01-21 10:54:27,976 [custom_logger] create_button.class = btn btn-default button button-medium exclusive: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-21 10:54:27,977 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:27,986 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:28,004 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:28,022 [connectionpool] http://127.0.0.1:49673 "GET /session/32e5ac1875635137040648f66cbfba43/element/b77e67e0-b2ff-4fc4-9ff2-eba17043b68b/enabled HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:28,024 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:28,033 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:28,116 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element/b77e67e0-b2ff-4fc4-9ff2-eba17043b68b/click HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:28,117 [custom_logger] Clicked on element 'create_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-21 10:54:28,119 [custom_logger] Attempting to load page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 10:54:28,119 [custom_logger] Mobile page CreateAccountPageObject = 'CreateAccountPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+DEBUG   2020-01-21 10:54:28,148 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/url HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:28,149 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:28,188 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 404 1059
+DEBUG   2020-01-21 10:54:28,698 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 404 1059
+DEBUG   2020-01-21 10:54:29,223 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 404 1059
+DEBUG   2020-01-21 10:54:29,733 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 404 1059
+DEBUG   2020-01-21 10:54:30,334 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:30,350 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:30,351 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+INFO    2020-01-21 10:54:30,352 [custom_logger] Loaded page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 10:54:30,352 [custom_logger] The mobile_page object = CreateAccountPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,352 [custom_logger] Element name = mrs_radio_btn, value = <toolium.pageelements.button_page_element.Button object at 0x0000021BA5F5F588>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,353 [custom_logger] Element name = firstname, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F5F8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,353 [custom_logger] Element name = lastname, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F668>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,353 [custom_logger] Element name = email, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F6D8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,353 [custom_logger] Element name = password, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F710>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,353 [custom_logger] Element name = address_firstname, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F748>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,353 [custom_logger] Element name = address_lastname, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F780>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,354 [custom_logger] Element name = address_company, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F7B8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,354 [custom_logger] Element name = address, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F7F0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,354 [custom_logger] Element name = address_line2, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F828>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,354 [custom_logger] Element name = address_city, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F860>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,354 [custom_logger] Element name = button_select, value = <toolium.pageelements.button_page_element.Button object at 0x0000021BA5F5F898>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,354 [custom_logger] Element name = address_state, value = <toolium.pageelements.button_page_element.Button object at 0x0000021BA5F5F8D0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,355 [custom_logger] Element name = address_zip, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F908>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,355 [custom_logger] Element name = address_country, value = <toolium.pageelements.button_page_element.Button object at 0x0000021BA5F5F940>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,355 [custom_logger] Element name = address_mobile_number, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F978>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,355 [custom_logger] Element name = address_used, value = <toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F9B0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,355 [custom_logger] Element name = register_button, value = <toolium.pageelements.button_page_element.Button object at 0x0000021BA5F5F9E8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 10:54:30,356 [custom_logger] Found element mrs_radio_btn in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:30,356 [custom_logger] Element mrs_radio_btn = '<toolium.pageelements.button_page_element.Button object at 0x0000021BA5F5F588>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 10:54:30,356 [custom_logger] Found element mrs_radio_btn in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:30,357 [custom_logger] Element mrs_radio_btn = '<toolium.pageelements.button_page_element.Button object at 0x0000021BA5F5F588>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:30,374 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:30,382 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/execute/sync HTTP/1.1" 200 17
+DEBUG   2020-01-21 10:54:30,382 [custom_logger] mrs_radio_btn.class = radio: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-21 10:54:30,387 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:30,395 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:30,408 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:30,418 [connectionpool] http://127.0.0.1:49673 "GET /session/32e5ac1875635137040648f66cbfba43/element/ceea29cc-5f28-4378-b35e-41d9303951e8/enabled HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:30,420 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:30,427 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:30,510 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element/ceea29cc-5f28-4378-b35e-41d9303951e8/click HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:30,511 [custom_logger] Clicked on element 'mrs_radio_btn': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2020-01-21 10:54:30,512 [custom_logger] Attempting to set 'firstname.text' to 'Sinazo': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 10:54:30,512 [custom_logger] Found element firstname in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:30,513 [custom_logger] Element firstname = '<toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F5F8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:30,533 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:30,642 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element/30c32379-5c73-4312-9dd4-c9176d5d472e/value HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:30,643 [custom_logger] Attempting to set 'lastname.text' to 'Hlalele': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 10:54:30,644 [custom_logger] Found element lastname in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:30,644 [custom_logger] Element lastname = '<toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F668>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:30,661 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:30,783 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element/bbe793ab-8d59-4fab-8d78-b50c7277d079/value HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:30,785 [custom_logger] Attempting to set 'password.text' to 'sinawo#': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 10:54:30,785 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:30,785 [custom_logger] Element password = '<toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F710>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:30,807 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:30,898 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element/92a7aeca-7843-4329-8655-84e09583984b/value HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:30,900 [custom_logger] Attempting to set 'address_company.text' to 'Kineticskunk': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 10:54:30,900 [custom_logger] Found element address_company in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:30,900 [custom_logger] Element address_company = '<toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F7B8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:30,914 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:31,063 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element/8400f475-ceef-458c-bbaf-b2d630c8e417/value HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:31,064 [custom_logger] Attempting to set 'address.text' to 'groove building': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 10:54:31,064 [custom_logger] Found element address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:31,064 [custom_logger] Element address = '<toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F7F0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:31,080 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:31,225 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element/211e2cd4-1872-48a6-bfdf-89ad532f1e1c/value HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:31,227 [custom_logger] Attempting to set 'address_line2.text' to 'claremont': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 10:54:31,227 [custom_logger] Found element address_line2 in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:31,227 [custom_logger] Element address_line2 = '<toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F828>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:31,241 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:31,367 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element/979029f6-73df-44fe-989d-5fc7e3ba5cd8/value HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:31,369 [custom_logger] Attempting to set 'address_city.text' to 'Cape town': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 10:54:31,369 [custom_logger] Found element address_city in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:31,369 [custom_logger] Element address_city = '<toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F860>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:31,382 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:31,489 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element/881dc1b0-a700-4687-9bbe-474bd25e25cb/value HTTP/1.1" 200 14
+INFO    2020-01-21 10:54:31,491 [custom_logger] Found element button_select in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:31,492 [custom_logger] Element button_select = '<toolium.pageelements.button_page_element.Button object at 0x0000021BA5F5F898>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 10:54:31,492 [custom_logger] Found element button_select in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:31,492 [custom_logger] Element button_select = '<toolium.pageelements.button_page_element.Button object at 0x0000021BA5F5F898>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:31,500 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:31,508 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/execute/sync HTTP/1.1" 200 28
+DEBUG   2020-01-21 10:54:31,508 [custom_logger] button_select.id = uniform-id_state: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-21 10:54:31,509 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:31,517 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:31,528 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/execute/sync HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:31,538 [connectionpool] http://127.0.0.1:49673 "GET /session/32e5ac1875635137040648f66cbfba43/element/5a7a2897-43ac-4d7e-97b7-7310ee31f21d/enabled HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:31,540 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/timeouts HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:31,547 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 200 88
+DEBUG   2020-01-21 10:54:31,736 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element/5a7a2897-43ac-4d7e-97b7-7310ee31f21d/click HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:31,738 [custom_logger] Clicked on element 'button_select': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2020-01-21 10:54:31,743 [custom_logger] Attempting to set 'address_zip.text' to '10001': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 10:54:31,743 [custom_logger] Found element address_zip in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:31,743 [custom_logger] Element address_zip = '<toolium.pageelements.text_page_element.Text object at 0x0000021BA5F5F908>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 10:54:31,745 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/element HTTP/1.1" 404 996
+ERROR   2020-01-21 10:54:31,864 [environment] The scenario 'Create account process -- @1.1 ' has failed
+DEBUG   2020-01-21 10:54:31,867 [connectionpool] http://127.0.0.1:49673 "GET /session/32e5ac1875635137040648f66cbfba43/screenshot HTTP/1.1" 404 996
+DEBUG   2020-01-21 10:54:31,870 [connectionpool] http://127.0.0.1:49673 "GET /session/32e5ac1875635137040648f66cbfba43/log/types HTTP/1.1" 404 816
+DEBUG   2020-01-21 10:54:31,871 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2020-01-21 10:54:31,874 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/log HTTP/1.1" 400 895
+DEBUG   2020-01-21 10:54:31,878 [connectionpool] http://127.0.0.1:49673 "POST /session/32e5ac1875635137040648f66cbfba43/log HTTP/1.1" 400 895
+DEBUG   2020-01-21 10:54:31,918 [connectionpool] http://127.0.0.1:49673 "DELETE /session/32e5ac1875635137040648f66cbfba43 HTTP/1.1" 200 14
+DEBUG   2020-01-21 10:54:34,124 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2020-01-21 10:54:34,124 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2020-01-21 10:54:34,127 [config_driver] Creating local driver (type = chrome)
+DEBUG   2020-01-21 10:54:34,128 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2020-01-21 10:54:34,650 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:49704
+DEBUG   2020-01-21 12:18:00,600 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2020-01-21 12:18:00,600 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2020-01-21 12:18:00,615 [config_driver] Creating local driver (type = chrome)
+DEBUG   2020-01-21 12:18:00,615 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2020-01-21 12:18:03,939 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2020-01-21 12:18:04,077 [driver_wrapper] Window size: 1616 x 876
+INFO    2020-01-21 12:18:04,080 [environment] Running new scenario: Create account process -- @1.1 
+INFO    2020-01-21 12:18:04,086 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:04,088 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:10,041 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:10,042 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:10,042 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D4EFD0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:10,042 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D62080>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:10,042 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D620B8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:10,042 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D62128>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:10,042 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D62160>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:10,043 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D62198>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:10,043 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D621D0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2020-01-21 12:18:10,044 [custom_logger] Attempting to set 'create_email.text' to 'mpLwando@gmail.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:10,044 [custom_logger] Found element create_email in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:10,044 [custom_logger] Element create_email = '<toolium.pageelements.text_page_element.Text object at 0x000001FF46D62198>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:10,233 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:10,233 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D621D0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:10,234 [custom_logger] Found element create_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:10,234 [custom_logger] Element create_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D621D0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:10,259 [custom_logger] create_button.class = btn btn-default button button-medium exclusive: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-21 12:18:10,417 [custom_logger] Clicked on element 'create_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-21 12:18:10,419 [custom_logger] Attempting to load page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:10,420 [custom_logger] Mobile page CreateAccountPageObject = 'CreateAccountPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:12,583 [custom_logger] Loaded page CreateAccountPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:12,583 [custom_logger] The mobile_page object = CreateAccountPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,584 [custom_logger] Element name = mrs_radio_btn, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D624A8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,584 [custom_logger] Element name = firstname, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D62518>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,584 [custom_logger] Element name = lastname, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D62358>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,584 [custom_logger] Element name = email, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D62320>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,584 [custom_logger] Element name = password, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D622E8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,584 [custom_logger] Element name = address_firstname, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D622B0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,584 [custom_logger] Element name = address_lastname, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D62278>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,584 [custom_logger] Element name = address_company, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D62240>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,585 [custom_logger] Element name = address, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D620F0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,585 [custom_logger] Element name = address_line2, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D62748>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,585 [custom_logger] Element name = address_city, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D62710>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,585 [custom_logger] Element name = button_select, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D62780>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,585 [custom_logger] Element name = address_state, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D626A0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,585 [custom_logger] Element name = address_zip, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D62828>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,585 [custom_logger] Element name = address_country, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D627B8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,585 [custom_logger] Element name = address_mobile_number, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D62908>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,585 [custom_logger] Element name = address_used, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D627F0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,585 [custom_logger] Element name = register_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D626D8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:12,587 [custom_logger] Found element mrs_radio_btn in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:12,587 [custom_logger] Element mrs_radio_btn = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D624A8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:12,587 [custom_logger] Found element mrs_radio_btn in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:12,587 [custom_logger] Element mrs_radio_btn = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D624A8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:12,607 [custom_logger] mrs_radio_btn.class = radio: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-21 12:18:12,705 [custom_logger] Clicked on element 'mrs_radio_btn': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2020-01-21 12:18:12,706 [custom_logger] Attempting to set 'firstname.text' to 'Sinazo': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:12,706 [custom_logger] Found element firstname in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:12,706 [custom_logger] Element firstname = '<toolium.pageelements.text_page_element.Text object at 0x000001FF46D62518>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:12,837 [custom_logger] Attempting to set 'lastname.text' to 'Hlalele': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:12,838 [custom_logger] Found element lastname in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:12,838 [custom_logger] Element lastname = '<toolium.pageelements.text_page_element.Text object at 0x000001FF46D62358>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:12,963 [custom_logger] Attempting to set 'password.text' to 'sinawo#': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:12,963 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:12,964 [custom_logger] Element password = '<toolium.pageelements.text_page_element.Text object at 0x000001FF46D622E8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:13,089 [custom_logger] Attempting to set 'address_company.text' to 'Kineticskunk': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:13,089 [custom_logger] Found element address_company in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:13,090 [custom_logger] Element address_company = '<toolium.pageelements.text_page_element.Text object at 0x000001FF46D62240>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:13,240 [custom_logger] Attempting to set 'address.text' to 'groove building': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:13,240 [custom_logger] Found element address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:13,240 [custom_logger] Element address = '<toolium.pageelements.text_page_element.Text object at 0x000001FF46D620F0>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:13,430 [custom_logger] Attempting to set 'address_line2.text' to 'claremont': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:13,430 [custom_logger] Found element address_line2 in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:13,431 [custom_logger] Element address_line2 = '<toolium.pageelements.text_page_element.Text object at 0x000001FF46D62748>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:13,551 [custom_logger] Attempting to set 'address_city.text' to 'Cape town': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:13,551 [custom_logger] Found element address_city in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:13,551 [custom_logger] Element address_city = '<toolium.pageelements.text_page_element.Text object at 0x000001FF46D62710>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:13,671 [custom_logger] Found element button_select in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:13,672 [custom_logger] Element button_select = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D62780>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:13,672 [custom_logger] Found element button_select in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:13,672 [custom_logger] Element button_select = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D62780>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:13,685 [custom_logger] button_select.id = uniform-id_state: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-21 12:18:13,826 [custom_logger] Clicked on element 'button_select': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2020-01-21 12:18:13,827 [custom_logger] Attempting to set 'address_zip.text' to '10001': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:13,828 [custom_logger] Found element address_zip in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:13,828 [custom_logger] Element address_zip = '<toolium.pageelements.text_page_element.Text object at 0x000001FF46D62828>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:14,002 [custom_logger] Found element address_country in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:14,003 [custom_logger] Element address_country = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D627B8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:14,003 [custom_logger] Found element address_country in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:14,003 [custom_logger] Element address_country = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D627B8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:14,026 [custom_logger] address_country.id = uniform-id_country: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-21 12:18:14,165 [custom_logger] Clicked on element 'address_country': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+DEBUG   2020-01-21 12:18:14,166 [custom_logger] Attempting to set 'address_mobile_number.text' to '0732027291': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:14,167 [custom_logger] Found element address_mobile_number in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:14,167 [custom_logger] Element address_mobile_number = '<toolium.pageelements.text_page_element.Text object at 0x000001FF46D62908>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:14,322 [custom_logger] Found element register_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:14,322 [custom_logger] Element register_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D626D8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:14,322 [custom_logger] Found element register_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:14,322 [custom_logger] Element register_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D626D8>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:14,341 [custom_logger] register_button.class = btn btn-default button button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-21 12:18:15,786 [custom_logger] Clicked on element 'register_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-21 12:18:15,787 [environment] The scenario 'Create account process -- @1.1 ' has passed
+DEBUG   2020-01-21 12:18:17,975 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2020-01-21 12:18:17,976 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2020-01-21 12:18:17,979 [config_driver] Creating local driver (type = chrome)
+DEBUG   2020-01-21 12:18:17,980 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2020-01-21 12:18:21,377 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2020-01-21 12:18:21,513 [driver_wrapper] Window size: 1616 x 876
+INFO    2020-01-21 12:18:21,517 [environment] Running new scenario: Negative Login process -- @1.1 
+INFO    2020-01-21 12:18:21,522 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:21,523 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:27,056 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:27,056 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:27,056 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D84828>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:27,057 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D84898>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:27,057 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D84588>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2020-01-21 12:18:27,058 [custom_logger] Attempting to set 'email_address.text' to 'wrongemail': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:27,058 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:27,058 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D84828>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:27,211 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:27,211 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:27,211 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D84898>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:27,355 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:27,355 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D84588>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:27,355 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:27,356 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D84588>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:27,374 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-21 12:18:28,690 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-21 12:18:28,691 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:28,692 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D84588>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:28,718 [custom_logger] sign_in_button.ID = SubmitLogin: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+INFO    2020-01-21 12:18:28,718 [environment] The scenario 'Negative Login process -- @1.1 ' has passed
+DEBUG   2020-01-21 12:18:31,190 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2020-01-21 12:18:31,191 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2020-01-21 12:18:31,195 [config_driver] Creating local driver (type = chrome)
+DEBUG   2020-01-21 12:18:31,196 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2020-01-21 12:18:34,658 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2020-01-21 12:18:34,773 [driver_wrapper] Window size: 1616 x 876
+INFO    2020-01-21 12:18:34,774 [environment] Running new scenario: Negative Login process -- @1.2 
+INFO    2020-01-21 12:18:34,777 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:34,778 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:40,933 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:40,933 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:40,933 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D84E48>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:40,934 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D84860>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:40,934 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D84C50>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2020-01-21 12:18:40,935 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:40,935 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:40,935 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D84E48>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:41,139 [custom_logger] Attempting to set 'password.text' to 'wrongpassword': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:41,139 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:41,140 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D84860>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:41,259 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:41,259 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D84C50>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:41,260 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:41,260 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D84C50>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:41,274 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-21 12:18:42,636 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-21 12:18:42,637 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:42,637 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D84C50>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:42,655 [custom_logger] sign_in_button.ID = SubmitLogin: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+INFO    2020-01-21 12:18:42,656 [environment] The scenario 'Negative Login process -- @1.2 ' has passed
+DEBUG   2020-01-21 12:18:44,848 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2020-01-21 12:18:44,849 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2020-01-21 12:18:44,852 [config_driver] Creating local driver (type = chrome)
+DEBUG   2020-01-21 12:18:44,852 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2020-01-21 12:18:48,231 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2020-01-21 12:18:48,347 [driver_wrapper] Window size: 1616 x 876
+INFO    2020-01-21 12:18:48,348 [environment] Running new scenario: Negative Login process -- @1.3 
+INFO    2020-01-21 12:18:48,351 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:48,352 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:53,885 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:18:53,886 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:53,886 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D93860>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:53,886 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D93278>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:18:53,886 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D93198>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2020-01-21 12:18:53,887 [custom_logger] Attempting to set 'email_address.text' to 'wrongemail': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:53,887 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:53,887 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D93860>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:53,998 [custom_logger] Attempting to set 'password.text' to 'wrongpassword': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:18:53,998 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:53,999 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D93278>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:54,137 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:54,138 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D93198>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:18:54,138 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:54,138 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D93198>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:54,156 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-21 12:18:55,505 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-21 12:18:55,506 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:55,507 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46D93198>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:18:55,525 [custom_logger] sign_in_button.ID = SubmitLogin: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+INFO    2020-01-21 12:18:55,525 [environment] The scenario 'Negative Login process -- @1.3 ' has passed
+DEBUG   2020-01-21 12:18:57,723 [config_parser] Reading properties from file: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\properties.cfg
+DEBUG   2020-01-21 12:18:57,724 [config_parser] Properties config file not found: C:\Users\KINETICSKUNK-DC\ProjectDemo\conf\local-properties.cfg
+INFO    2020-01-21 12:18:57,729 [config_driver] Creating local driver (type = chrome)
+DEBUG   2020-01-21 12:18:57,729 [config_driver] Chrome driver path given in properties: C:\Windows\chromedriver.exe
+DEBUG   2020-01-21 12:19:01,151 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2020-01-21 12:19:01,286 [driver_wrapper] Window size: 1616 x 876
+INFO    2020-01-21 12:19:01,290 [environment] Running new scenario: Positive Login process -- @1.1 
+INFO    2020-01-21 12:19:01,294 [custom_logger] Attempting to load page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:19:01,295 [custom_logger] Mobile page LoginPageObject = 'LoginPageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:19:06,787 [custom_logger] Loaded page LoginPageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:19:06,787 [custom_logger] The mobile_page object = LoginPageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:19:06,787 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46DAB240>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:19:06,787 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46DAB978>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:19:06,788 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46DAB668>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+DEBUG   2020-01-21 12:19:06,789 [custom_logger] Attempting to set 'email_address.text' to 'rowankirchner@kineticskunk.com': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:19:06,789 [custom_logger] Found element email_address in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:19:06,789 [custom_logger] Element email_address = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46DAB240>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:19:07,022 [custom_logger] Attempting to set 'password.text' to '74569852': set_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:130
+INFO    2020-01-21 12:19:07,022 [custom_logger] Found element password in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:19:07,022 [custom_logger] Element password = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46DAB978>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:19:07,132 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:19:07,132 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46DAB668>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+INFO    2020-01-21 12:19:07,132 [custom_logger] Found element sign_in_button in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:19:07,132 [custom_logger] Element sign_in_button = '<toolium.pageelements.button_page_element.Button object at 0x000001FF46DAB668>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:19:07,146 [custom_logger] sign_in_button.class = button btn btn-default button-medium: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+DEBUG   2020-01-21 12:19:08,853 [custom_logger] Clicked on element 'sign_in_button': click_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:111
+INFO    2020-01-21 12:19:08,856 [custom_logger] Attempting to load page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:19:08,856 [custom_logger] Mobile page HomePageObject = 'HomePageObject': init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:19:11,143 [custom_logger] Loaded page HomePageObject: init_web_page in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:50
+INFO    2020-01-21 12:19:11,144 [custom_logger] The mobile_page object = HomePageObject: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:19:11,144 [custom_logger] Element name = search, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D84748>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:19:11,144 [custom_logger] Element name = search_btn, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D84B00>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:19:11,144 [custom_logger] Element name = email_address, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D84EF0>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:19:11,144 [custom_logger] Element name = password, value = <toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D84160>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:19:11,144 [custom_logger] Element name = sign_in_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D849E8>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:19:11,144 [custom_logger] Element name = create_email, value = <toolium.pageelements.text_page_element.Text object at 0x000001FF46D84908>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:19:11,145 [custom_logger] Element name = create_button, value = <toolium.pageelements.button_page_element.Button object at 0x000001FF46D84F98>: init_web_page_elements in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:74
+INFO    2020-01-21 12:19:11,146 [custom_logger] Found element search in 'dict': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:19:11,146 [custom_logger] Element search = '<toolium.pageelements.input_text_page_element.InputText object at 0x000001FF46D84748>': get_element in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:85
+DEBUG   2020-01-21 12:19:11,163 [custom_logger] search.ID = search_query_top: get_mobile_element_attribute_value in C:\Users\KINETICSKUNK-DC\ProjectDemo\pageobjects\common.py:101
+INFO    2020-01-21 12:19:11,164 [environment] The scenario 'Positive Login process -- @1.1 ' has passed

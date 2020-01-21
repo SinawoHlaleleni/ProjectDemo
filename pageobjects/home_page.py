@@ -35,10 +35,6 @@ class HomePageObject(PageObject):
     create_email = None
     submit_button = None
     create_button = None
-    # more_btn = None
-    # item = None
-    # button = None
-    # add_to_cart = None
     logo = None
 
     def init_page_elements(self):
@@ -52,29 +48,5 @@ class HomePageObject(PageObject):
         self.create_email = Text(By.ID, 'email_create')
         self.create_button = Button(By.ID, 'SubmitCreate')
 
-    # def web_scroll(self):
-    #     self.driver.execute_script("window.scrollTo(0, 500)")
-
-
-
-
-    # def scroll_method(self):
-    #     scroll to bottom
-    #     self.driver.execute_script("window.scrollTo(0, -170, document.body.scrollHeight);")
-    #     Hover to blouse and click add to cart button
-    #     self.item = self.driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[3]/div[2]/ul/li[2]/div/div['
-    #                                                    '1]/div/a[1]/img')
-    #     self.button = ActionChains(self.driver).move_to_element(self.item).perform()
-    #     self.add_to_cart = self.driver.find_element(By.XPATH,
-    #                                                 '/html/body/div/div[2]/div/div[3]/div[2]/ul/li[2]/div/div[2]/div['
-    #                                                 '2]/a[1]')
-
-    # def hover(self):
-    #     self.element = self.driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[3]/div[2]/ul/li[2]')
-    #     self.hover = ActionChains(self.driver).move_to_element(self.element).perform()
-    #     self.add_to_cart = self.driver.find_element(By.XPATH,
-    #                                                 '/html/body/div/div[2]/div/div[3]/div[2]/ul/li[2]/div/div['
-    #                                                  '2]/div[2]/a[2]/span').click()
-    #     self.driver.execute_script("window.scrollTo(0, 450)")
 
 
